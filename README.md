@@ -1,6 +1,6 @@
-# nwutils.github.io
+# NW Utils website
 
-NW Utils website placeholder repo.
+placeholder repo
 
 * * *
 
