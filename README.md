@@ -2,7 +2,9 @@
 
 Helpers, tools, and examples for NW.js
 
+
 * * *
+
 
 ## Goals
 
@@ -16,28 +18,29 @@ Helpers, tools, and examples for NW.js
 
 * * *
 
+
 * Boilerplates
-  * https://github.com/nwutils/nw-vue-cli-example
-  * https://github.com/nwutils/nw-angular-cli-example
-  * https://github.com/nwutils/nw-jquery-example
+  * [nw-vue-cli-example](https://github.com/nwutils/nw-vue-cli-example)
+  * [nw-angular-cli-example](https://github.com/nwutils/nw-angular-cli-example)
+  * [nw-jquery-example](https://github.com/nwutils/nw-jquery-example)
 * Node.js Libraries
-  * https://github.com/nwutils/create-desktop-shortcuts
+  * [create-desktop-shortcuts](https://github.com/nwutils/create-desktop-shortcuts)
 * NW.js Libraries
-  * https://github.com/nwutils/find-in-nw
-  * https://github.com/nwutils/nw-splasher
-  * https://github.com/nwutils/nw-programmatic-folder-select
-  * https://github.com/nwutils/nw-electron-adapter
+  * [find-in-nw](https://github.com/nwutils/find-in-nw)
+  * [nw-splasher](https://github.com/nwutils/nw-splasher)
+  * [nw-programmatic-folder-select](https://github.com/nwutils/nw-programmatic-folder-select)
+  * [nw-electron-adapter](https://github.com/nwutils/nw-electron-adapter)
 * Components
-  * https://github.com/nwutils/nw-img-vue
+  * [nw-img-vue](https://github.com/nwutils/nw-img-vue)
 * Code Examples
-  * https://github.com/nwutils/frameless-example
-  * https://github.com/nwutils/nw-local-server-example
-  * https://github.com/nwutils/nw-tray-example
-  * https://github.com/nwutils/nw-splash-screen-example
+  * [frameless-example](https://github.com/nwutils/frameless-example)
+  * [nw-local-server-example](https://github.com/nwutils/nw-local-server-example)
+  * [nw-tray-example](https://github.com/nwutils/nw-tray-example)
+  * [nw-splash-screen-example](https://github.com/nwutils/nw-splash-screen-example)
 * WIP
-  * https://github.com/nwutils/nw-utils-builder
-  * https://github.com/nwutils/nw-utils-settings
+  * [nw-utils-builder](https://github.com/nwutils/nw-utils-builder)
+  * [nw-utils-settings](https://github.com/nwutils/nw-utils-settings)
 * Not started:
-  * https://github.com/nwutils/nwutils.github.io
-  * https://github.com/nwutils/nw-window-manager
-  * https://github.com/nwutils/node-default-application-protocol
+  * [nwutils.github.io](https://github.com/nwutils/nwutils.github.io)
+  * [nw-window-manager](https://github.com/nwutils/nw-window-manager)
+  * [node-default-application-protocol](https://github.com/nwutils/node-default-application-protocol)
