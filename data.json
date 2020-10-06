@@ -1,0 +1,113 @@
+[
+  {
+    "title": "Boilerplates",
+    "projects": [
+      {
+        "title": "nw-vue-cli-example",
+        "url": "https://github.com/nwutils/nw-vue-cli-example"
+      },
+      {
+        "title": "nw-angular-cli-example",
+        "url": "https://github.com/nwutils/nw-angular-cli-example"
+      },
+      {
+        "title": "nw-jquery-example",
+        "url": "https://github.com/nwutils/nw-jquery-example"
+      }
+    ]
+  },
+  {
+    "title": "Node.js Libraries",
+    "projects": [
+      {
+        "title": "create-desktop-shortcuts",
+        "url": "https://github.com/nwutils/create-desktop-shortcuts"
+      }
+    ]
+  },
+  {
+    "title": "NW.js Libraries",
+    "projects": [
+      {
+        "title": "create-desktop-shortcuts",
+        "url": "https://github.com/nwutils/create-desktop-shortcuts"
+      },
+      {
+        "title": "find-in-nw",
+        "url": "https://github.com/nwutils/find-in-nw"
+      },
+      {
+        "title": "nw-splasher",
+        "url": "https://github.com/nwutils/nw-splasher"
+      },
+      {
+        "title": "nw-programmatic-folder-select",
+        "url": "https://github.com/nwutils/nw-programmatic-folder-select"
+      },
+      {
+        "title": "nw-electron-adapter",
+        "url": "https://github.com/nwutils/nw-electron-adapter"
+      }
+    ]
+  },
+  {
+    "title": "Components",
+    "projects": [
+      {
+        "title": "nw-img-vue",
+        "url": "https://github.com/nwutils/nw-img-vue"
+      }
+    ]
+  },
+  {
+    "title": "Code Examples",
+    "projects": [
+      {
+        "title": "frameless-example",
+        "url": "https://github.com/nwutils/frameless-example"
+      },
+      {
+        "title": "nw-local-server-example",
+        "url": "https://github.com/nwutils/nw-local-server-example"
+      },
+      {
+        "title": "nw-tray-example",
+        "url": "https://github.com/nwutils/nw-tray-example"
+      },
+      {
+        "title": "nw-splash-screen-example",
+        "url": "https://github.com/nwutils/nw-splash-screen-example"
+      }
+    ]
+  },
+  {
+    "title": "WIP",
+    "projects": [
+      {
+        "title": "nw-utils-builder",
+        "url": "https://github.com/nwutils/nw-utils-builder"
+      },
+      {
+        "title": "nw-utils-settings",
+        "url": "https://github.com/nwutils/nw-utils-settings"
+      }
+    ]
+  },
+  {
+    "title": "Not started",
+    "projects": [
+      {
+        "title": "nwutils.github.io",
+        "url": "https://github.com/nwutils/nwutils.github.io"
+      },
+      {
+        "title": "nw-window-manager",
+        "url": "https://github.com/nwutils/nw-window-manager"
+      },
+      {
+        "title": "node-default-application-protocol",
+        "url": "https://github.com/nwutils/node-default-application-protocol"
+      }
+    ]
+  }
+]
