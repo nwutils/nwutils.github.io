@@ -1,0 +1,17 @@
+{
+  "name": "nwutils-site",
+  "version": "1.0.0",
+  "description": "Website",
+  "main": "index.html",
+  "scripts": {
+    "start": "node node_modules/npm-free-server/dist/server.js",
+    "lint": "eslint components/**/*.vue",
+    "fix": "npm run lint -- --fix"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-plugin-vue": "^4.7.1",
+    "npm-free-server": "^1.1.0"
+  }
+}

@@ -84,6 +84,11 @@
     "title": "WIP",
     "projects": [
       {
+        "title": "nwutils.github.io",
+        "url": "https://github.com/nwutils/nwutils.github.io",
+        "description": "<----- Click here to help build this site."
+      },
+      {
         "title": "nw-utils-builder",
         "url": "https://github.com/nwutils/nw-utils-builder"
       },
@@ -96,10 +101,6 @@
   {
     "title": "Not started",
     "projects": [
-      {
-        "title": "nwutils.github.io",
-        "url": "https://github.com/nwutils/nwutils.github.io"
-      },
       {
         "title": "nw-window-manager",
         "url": "https://github.com/nwutils/nw-window-manager"
