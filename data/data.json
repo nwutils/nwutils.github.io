@@ -16,7 +16,7 @@
       },
       {
         "title": "nw-parcel-hmr-boilerplate",
-        "url": "https://github.com/djmisterjon/nw-Parcel-hmr-boilerplate/tree/helloWorld",
+        "url": "https://github.com/nwutils/nw-Parcel-hmr-boilerplate",
         "description": "Hot Module Reloading Parcel (bundler) boilerplate for NW.js"
       }
     ]
