@@ -4,15 +4,18 @@
     "projects": [
       {
         "title": "nw-vue-cli-example",
-        "url": "https://github.com/nwutils/nw-vue-cli-example"
+        "url": "https://github.com/nwutils/nw-vue-cli-example",
+        "description": ""
       },
       {
         "title": "nw-angular-cli-example",
-        "url": "https://github.com/nwutils/nw-angular-cli-example"
+        "url": "https://github.com/nwutils/nw-angular-cli-example",
+        "description": ""
       },
       {
         "title": "nw-jquery-example",
-        "url": "https://github.com/nwutils/nw-jquery-example"
+        "url": "https://github.com/nwutils/nw-jquery-example",
+        "description": ""
       },
       {
         "title": "nw-parcel-hmr-boilerplate",
@@ -26,7 +29,8 @@
     "projects": [
       {
         "title": "create-desktop-shortcuts",
-        "url": "https://github.com/nwutils/create-desktop-shortcuts"
+        "url": "https://github.com/nwutils/create-desktop-shortcuts",
+        "description": ""
       }
     ]
   },
@@ -35,23 +39,28 @@
     "projects": [
       {
         "title": "create-desktop-shortcuts",
-        "url": "https://github.com/nwutils/create-desktop-shortcuts"
+        "url": "https://github.com/nwutils/create-desktop-shortcuts",
+        "description": ""
       },
       {
         "title": "find-in-nw",
-        "url": "https://github.com/nwutils/find-in-nw"
+        "url": "https://github.com/nwutils/find-in-nw",
+        "description": ""
       },
       {
         "title": "nw-splasher",
-        "url": "https://github.com/nwutils/nw-splasher"
+        "url": "https://github.com/nwutils/nw-splasher",
+        "description": ""
       },
       {
         "title": "nw-programmatic-folder-select",
-        "url": "https://github.com/nwutils/nw-programmatic-folder-select"
+        "url": "https://github.com/nwutils/nw-programmatic-folder-select",
+        "description": ""
       },
       {
         "title": "nw-electron-adapter",
-        "url": "https://github.com/nwutils/nw-electron-adapter"
+        "url": "https://github.com/nwutils/nw-electron-adapter",
+        "description": ""
       }
     ]
   },
@@ -60,7 +69,8 @@
     "projects": [
       {
         "title": "nw-img-vue",
-        "url": "https://github.com/nwutils/nw-img-vue"
+        "url": "https://github.com/nwutils/nw-img-vue",
+        "description": ""
       }
     ]
   },
@@ -69,19 +79,23 @@
     "projects": [
       {
         "title": "frameless-example",
-        "url": "https://github.com/nwutils/frameless-example"
+        "url": "https://github.com/nwutils/frameless-example",
+        "description": ""
       },
       {
         "title": "nw-local-server-example",
-        "url": "https://github.com/nwutils/nw-local-server-example"
+        "url": "https://github.com/nwutils/nw-local-server-example",
+        "description": ""
       },
       {
         "title": "nw-tray-example",
-        "url": "https://github.com/nwutils/nw-tray-example"
+        "url": "https://github.com/nwutils/nw-tray-example",
+        "description": ""
       },
       {
         "title": "nw-splash-screen-example",
-        "url": "https://github.com/nwutils/nw-splash-screen-example"
+        "url": "https://github.com/nwutils/nw-splash-screen-example",
+        "description": ""
       }
     ]
   },
@@ -95,24 +109,38 @@
       },
       {
         "title": "nw-utils-builder",
-        "url": "https://github.com/nwutils/nw-utils-builder"
+        "url": "https://github.com/nwutils/nw-utils-builder",
+        "description": ""
       },
       {
         "title": "nw-utils-settings",
-        "url": "https://github.com/nwutils/nw-utils-settings"
+        "url": "https://github.com/nwutils/nw-utils-settings",
+        "description": ""
       }
     ]
   },
   {
-    "title": "Not started",
+    "title": "Ideas bucket (Not started)",
     "projects": [
       {
         "title": "nw-window-manager",
-        "url": "https://github.com/nwutils/nw-window-manager"
+        "url": "https://github.com/nwutils/nw-window-manager",
+        "description": "A library to let you easily control all opened windows (hide/show/close/blur/focus remotely)."
       },
       {
         "title": "node-default-application-protocol",
-        "url": "https://github.com/nwutils/node-default-application-protocol"
+        "url": "https://github.com/nwutils/node-default-application-protocol",
+        "description": "Would allow you to create mycoolappname://settings link (or similar) that would trigger your app to open"
+      },
+      {
+        "title": "limited-node-access-example",
+        "url": "https://github.com/nwutils/limited-node-access-example",
+        "description": "An example for how to give an iframe access to only specific parts of Node"
+      },
+      {
+        "title": "faux-tray-menu",
+        "url": "https://github.com/nwutils/faux-tray-menu",
+        "description": "Workaround for a tray app menu bug. Could also be used as a more robust menu system for tray apps"
       }
     ]
   }
