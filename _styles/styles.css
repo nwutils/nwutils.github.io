@@ -49,6 +49,10 @@
 
 body {
     font-family: Trebuchet MS, sans-serif;
+    line-height: 1.3;
+}
+ul {
+    margin-bottom: 16px;
 }
 .logo {
     max-width: 100px;
