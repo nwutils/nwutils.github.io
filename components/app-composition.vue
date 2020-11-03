@@ -19,7 +19,7 @@
           v-for="(category, categoryIndex) in categories"
           :key="'category' + categoryIndex"
         >
-          {{ category.title }}
+          <strong>{{ category.title }}</strong>
           <ul v-if="category.projects && category.projects.length">
             <li
               v-for="(project, projectIndex) in category.projects"
