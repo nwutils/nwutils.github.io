@@ -5,21 +5,21 @@
       {
         "title": "nw-vue-cli-example",
         "url": "https://github.com/nwutils/nw-vue-cli-example",
-        "description": ""
+        "description": "A fully featured boilerplate, complete with Vue-CLI integration and automated builds for web and desktop. Branch for starting with a splash screen as well."
       },
       {
         "title": "nw-angular-cli-example",
         "url": "https://github.com/nwutils/nw-angular-cli-example",
-        "description": ""
+        "description": "Angular CLI boilerplate, complete with automated builds for web and desktop."
       },
       {
         "title": "nw-jquery-example",
         "url": "https://github.com/nwutils/nw-jquery-example",
-        "description": ""
+        "description": "Simple example of using jQuery in an NW.js app."
       },
       {
         "title": "nw-parcel-hmr-boilerplate",
-        "url": "https://github.com/nwutils/nw-Parcel-hmr-boilerplate",
+        "url": "https://github.com/nwutils/nw-parcel-hmr-boilerplate",
         "description": "Hot Module Reloading Parcel (bundler) boilerplate for NW.js"
       }
     ]
@@ -30,7 +30,7 @@
       {
         "title": "create-desktop-shortcuts",
         "url": "https://github.com/nwutils/create-desktop-shortcuts",
-        "description": ""
+        "description": "Easy API to create a desktop shortcut icon to open an app, file, or URL. Customize the icon and location. Cross-platform."
       }
     ]
   },
@@ -38,29 +38,24 @@
     "title": "NW.js Libraries",
     "projects": [
       {
-        "title": "create-desktop-shortcuts",
-        "url": "https://github.com/nwutils/create-desktop-shortcuts",
-        "description": ""
-      },
-      {
         "title": "find-in-nw",
         "url": "https://github.com/nwutils/find-in-nw",
-        "description": ""
+        "description": "Creates a fully customizable \"Find\" box to search for, and highlight text on the page. Opens via Ctrl+F."
       },
       {
         "title": "nw-splasher",
         "url": "https://github.com/nwutils/nw-splasher",
-        "description": ""
+        "description": "A library to create a splash screen for your app. Then hide the splash screen and show your app once loading completes. Each window runs in it's own thread so animations play smoothly on the splash screen."
       },
       {
         "title": "nw-programmatic-folder-select",
         "url": "https://github.com/nwutils/nw-programmatic-folder-select",
-        "description": ""
+        "description": "Let's you programmatically open a folder selection dialog and runs a callback function with the user's choice."
       },
       {
         "title": "nw-electron-adapter",
         "url": "https://github.com/nwutils/nw-electron-adapter",
-        "description": ""
+        "description": "A library that matches Electron's API to support the same features to make transitioning to NW.js simpler."
       }
     ]
   },
@@ -70,7 +65,7 @@
       {
         "title": "nw-img-vue",
         "url": "https://github.com/nwutils/nw-img-vue",
-        "description": ""
+        "description": "A Vue component that stores images in a local temp location and loads them from there first. If used outside of NW.js, it just displays the images normally."
       }
     ]
   },
@@ -80,22 +75,22 @@
       {
         "title": "frameless-example",
         "url": "https://github.com/nwutils/frameless-example",
-        "description": ""
+        "description": "Example of creating an NW.js app without a native Window frame from the OS. Includes styled & unstyled example and min/max/restore/close window controls."
       },
       {
         "title": "nw-local-server-example",
         "url": "https://github.com/nwutils/nw-local-server-example",
-        "description": ""
+        "description": "Example of an NW.js app running from a built-in local web server."
       },
       {
         "title": "nw-tray-example",
         "url": "https://github.com/nwutils/nw-tray-example",
-        "description": ""
+        "description": "Example of running an NW.js app from the tray as a tray icon with a right-click menu."
       },
       {
         "title": "nw-splash-screen-example",
         "url": "https://github.com/nwutils/nw-splash-screen-example",
-        "description": ""
+        "description": "Example of using the nw-splasher library to show a splash screen while the app is loading."
       }
     ]
   },
@@ -141,6 +136,11 @@
         "title": "faux-tray-menu",
         "url": "https://github.com/nwutils/faux-tray-menu",
         "description": "Workaround for a tray app menu bug. Could also be used as a more robust menu system for tray apps"
+      },
+      {
+        "title": "faux-notifications",
+        "url": "https://github.com/nwutils/faux-notifications",
+        "description": "Creating a transparent, custom styled, positioned and sized to look like a desktop notification"
       }
     ]
   }
