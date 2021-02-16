@@ -44,7 +44,7 @@
 module.exports = {
   name: 'app-composition',
   components: {
-    'github-corner': httpVueLoader('components/github-corner.vue')',
+    'github-corner': httpVueLoader('components/github-corner.vue'),
     'network-error': httpVueLoader('components/network-error.vue')
   },
   data: function () {
