@@ -1,5 +1,35 @@
 [
   {
+    "title": "Connect",
+    "projects": [
+      {
+        "title": "NW.js Discord",
+        "url": "https://discord.gg/tyx267vKRH",
+        "description": "Online Chat Server"
+      },
+      {
+        "title": "NW.js Gitter"
+        "url": "https://gitter.im/nwjs/nw.js",
+        "description": "Official Chatroom"
+      },
+      {
+        "title": "StackOverflow #nwjs",
+        "url": "https://stackoverflow.com/questions/tagged/nwjs",
+        "description": ""
+      },
+      {
+        "title": "Twitter #nwjs",
+        "url": "https://twitter.com/hashtag/nwjs",
+        "description": ""
+      },
+      {
+        "title": "NW.js Subreddit",
+        "url": "https://old.reddit.com/nwjs",
+        "description": ""
+      }
+    ]
+  },
+  {
     "title": "Boilerplates",
     "projects": [
       {
