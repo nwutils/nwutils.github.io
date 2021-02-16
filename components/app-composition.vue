@@ -3,7 +3,7 @@
     <div class="container">
       <github-corner
         repo="https://github.com/nwutils/nwutils.github.io"
-        fill="#0084FF"
+        background="#0084FF"
         octocat="#FFF"
       ></github-corner>
 
