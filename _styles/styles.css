@@ -57,3 +57,61 @@ ul {
 .logo {
     max-width: 100px;
 }
+
+
+
+
+
+/* GitHub corner */
+
+.github-corner p {
+  display: none;
+}
+.github-corner svg {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 80px;
+  height: 80px;
+  border: 0px;
+  fill: #000;
+  filter: drop-shadow(-7px 7px 0px #FFF);
+}
+.github-corner .octo-body {
+  fill: #FFF;
+}
+.github-corner .octo-arm {
+  fill: #FFF;
+  transform-origin: 130px 106px;
+}
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out;
+}
+
+@keyframes octocat-wave {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  20%, 60% {
+    transform: rotate(-25deg);
+  }
+  40%, 80% {
+    transform: rotate(10deg);
+  }
+}
+@media (max-width: 500px) {
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+  }
+  .github-corner:hover .octo-arm {
+    animation: none;
+  }
+}
+@media (max-width: 320px) {
+  .github-corner svg {
+    display: none;
+  }
+  .github-corner p {
+    display: block;
+  }
+}
