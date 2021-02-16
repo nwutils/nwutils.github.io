@@ -1,6 +1,7 @@
 <template>
   <div>
     <div class="container">
+      <github-corner></github-corner>
       <network-error
         v-if="networkError"
         @dismissed="networkError = false"
@@ -43,6 +44,7 @@
 module.exports = {
   name: 'app-composition',
   components: {
+    'github-corner': httpVueLoader('components/github-corner.vue')',
     'network-error': httpVueLoader('components/network-error.vue')
   },
   data: function () {
