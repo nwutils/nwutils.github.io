@@ -1,5 +1,5 @@
 <template>
-  <a href="https://github.com/xpdanet/xpdanet.github.io" class="github-corner" title="Edit this page on GitHub">
+  <a href="https://github.com/nwutils/nwutils.github.io" class="github-corner" title="Edit this page on GitHub">
     <svg viewBox="0 0 250 250">
       <path d="M0 0l115 115h15l12 27 108 108v-250z" />
       <path d="M128.3 109c-14.5-9.3-9.3-19.4-9.3-19.4 3-6.9 1.5-11 1.5-11-1.3-6.6 2.9-2.3 2.9-2.3 3.9 4.6 2.1 11 2.1 11-2.6 10.3 5.1 14.6 8.9 15.9" class="octo-arm" />
@@ -14,3 +14,61 @@ module.exports = {
   name: 'github-corner'
 };
 </script>
+
+<style>
+.github-corner {
+  --github-corner-bg: #0084FF;
+  --github-corner-octocat: #FFF;
+}
+.github-corner p {
+  display: none;
+}
+.github-corner svg {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 80px;
+  height: 80px;
+  border: 0px;
+  fill: var(--github-corner-octocat);
+  filter: drop-shadow(-7px 7px 0px var(--github-corner-octocat));
+}
+.github-corner .octo-body {
+  fill: var(--github-corner-octocat);
+}
+.github-corner .octo-arm {
+  fill: var(--github-corner-octocat);
+  transform-origin: 130px 106px;
+}
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out;
+}
+
+@keyframes octocat-wave {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  20%, 60% {
+    transform: rotate(-25deg);
+  }
+  40%, 80% {
+    transform: rotate(10deg);
+  }
+}
+@media (max-width: 500px) {
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+  }
+  .github-corner:hover .octo-arm {
+    animation: none;
+  }
+}
+@media (max-width: 320px) {
+  .github-corner svg {
+    display: none;
+  }
+  .github-corner p {
+    display: block;
+  }
+}
+</style>
