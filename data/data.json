@@ -21,6 +21,11 @@
         "title": "nw-parcel-hmr-boilerplate",
         "url": "https://github.com/nwutils/nw-parcel-hmr-boilerplate",
         "description": "Hot Module Reloading Parcel (bundler) boilerplate for NW.js"
+      },
+      {
+        "title": "nw-ts-game",
+        "url": "https://github.com/blfunex/nw-ts-game",
+        "description": "TypeScript Boilerplate for Game Developers"
       }
     ]
   },
