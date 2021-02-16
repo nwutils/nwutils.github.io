@@ -23,11 +23,11 @@ module.exports = {
     },
     background: {
       type: String,
-      default: #000
+      default: '#000'
     },
     octocat: {
       type: String,
-      default: #FFF
+      default: '#FFF'
     }
   },
   computed: {
