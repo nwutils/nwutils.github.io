@@ -1,11 +1,17 @@
 <template>
   <div>
     <div class="container">
-      <github-corner></github-corner>
+      <github-corner
+        repo="https://github.com/nwutils/nwutils.github.io"
+        fill="#0084FF"
+        octocat="#FFF"
+      ></github-corner>
+
       <network-error
         v-if="networkError"
         @dismissed="networkError = false"
       ></network-error>
+
       <div v-if="loading" class="loading-spinner"></div>
 
       <h1>
