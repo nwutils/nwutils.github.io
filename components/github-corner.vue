@@ -49,7 +49,7 @@ module.exports = {
   width: 80px;
   height: 80px;
   border: 0px;
-  fill: var(--github-corner-octocat);
+  fill: var(--github-corner-bg);
   filter: drop-shadow(-7px 7px 0px var(--github-corner-octocat));
 }
 .github-corner .octo-body {
