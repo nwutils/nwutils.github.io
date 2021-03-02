@@ -35,27 +35,156 @@
       {
         "title": "nw-vue-cli-example",
         "url": "https://github.com/nwutils/nw-vue-cli-example",
-        "description": "A fully featured boilerplate, complete with Vue-CLI integration and automated builds for web and desktop. Branch for starting with a splash screen as well."
+        "description": "A fully featured boilerplate, complete with Vue-CLI integration and automated builds for web and desktop. Branch for starting with a splash screen as well.",
+        "primaryTechnologies": [
+          "Vue.js",
+          "Vue-CLI",
+          "NW.js",
+          "Vue-DevTools",
+          "Babel",
+          "Webpack",
+          "Jest",
+          "ESLint"
+        ],
+        "quality": {
+          "documentation": {
+            "runningLocally": true,
+            "buildingDesktop": true,
+            "buildingWeb": true,
+            "screenshot": true
+          },
+          "builds": {
+            "automatedDesktop": true,
+            "automatedWeb": true
+          },
+          "semanticVersioning": true,
+          "releaseNotes": true,
+          "linting": true,
+          "testing": {
+            "unit": true,
+            "e2e": false
+          }
+        }
       },
       {
         "title": "nw-angular-cli-example",
         "url": "https://github.com/nwutils/nw-angular-cli-example",
-        "description": "Angular CLI boilerplate, complete with automated builds for web and desktop."
+        "description": "Angular CLI boilerplate, complete with automated builds for web and desktop.",
+        "primaryTechnologies": [
+          "Angular",
+          "Angular-CLI",
+          "NW.js",
+          "TypeScript",
+          "Webpack",
+          "Karma",
+          "TSLint"
+        ],
+        "quality": {
+          "documentation": {
+            "runningLocally": true,
+            "buildingDesktop": true,
+            "buildingWeb": true,
+            "screenshot": true
+          },
+          "builds": {
+            "automatedDesktop": true,
+            "automatedWeb": true
+          },
+          "semanticVersioning": true,
+          "releaseNotes": true,
+          "linting": true,
+          "testing": {
+            "unit": true,
+            "e2e": false
+          }
+        }
       },
       {
         "title": "nw-jquery-example",
         "url": "https://github.com/nwutils/nw-jquery-example",
-        "description": "Simple example of using jQuery in an NW.js app."
+        "description": "Simple example of using jQuery in an NW.js app.",
+        "primaryTechnologies": [
+          "jQuery",
+          "NW.js"
+        ],
+        "quality": {
+          "documentation": {
+            "runningLocally": true,
+            "buildingDesktop": false,
+            "buildingWeb": false,
+            "screenshot": false
+          },
+          "builds": {
+            "automatedDesktop": false,
+            "automatedWeb": false
+          },
+          "semanticVersioning": false,
+          "releaseNotes": false,
+          "linting": false,
+          "testing": {
+            "unit": false,
+            "e2e": false
+          }
+        }
       },
       {
         "title": "nw-parcel-hmr-boilerplate",
         "url": "https://github.com/nwutils/nw-parcel-hmr-boilerplate",
-        "description": "Hot Module Reloading Parcel (bundler) boilerplate for NW.js"
+        "description": "Hot Module Reloading Parcel (bundler) boilerplate for NW.js",
+        "primaryTechnologies": [
+          "Parcel",
+          "NW.js"
+        ],
+        "quality": {
+          "documentation": {
+            "runningLocally": true,
+            "buildingDesktop": true,
+            "buildingWeb": true,
+            "screenshot": false
+          },
+          "builds": {
+            "automatedDesktop": true,
+            "automatedWeb": true
+          },
+          "semanticVersioning": false,
+          "releaseNotes": false,
+          "linting": false,
+          "testing": {
+            "unit": false,
+            "e2e": false
+          }
+        }
       },
       {
         "title": "nw-ts-game",
         "url": "https://github.com/blfunex/nw-ts-game",
-        "description": "TypeScript Boilerplate for Game Developers"
+        "description": "TypeScript Boilerplate for Game Developers",
+        "primaryTechnologies": [
+          "glMatrix",
+          "NW.js",
+          "TypeScript",
+          "Babel",
+          "Rollup"
+        ],
+        "quality": {
+          "documentation": {
+            "runningLocally": true,
+            "buildingDesktop": false,
+            "buildingWeb": false,
+            "screenshot": false
+          },
+          "builds": {
+            "automatedDesktop": false,
+            "automatedWeb": true
+          },
+          "semanticVersioning": true,
+          "releaseNotes": false,
+          "linting": false,
+          "testing": {
+            "unit": false,
+            "e2e": false
+          }
+        }
       }
     ]
   },
