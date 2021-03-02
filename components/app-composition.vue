@@ -21,27 +21,39 @@
 
       <h2>This site is still under construction (obviously)</h2>
 
-      <ul>
-        <li
-          v-for="(category, categoryIndex) in categories"
+      <template v-for="(category, categoryIndex) in categories">
+        <div
+          v-if="category.title === 'Boilerplates'"
           :key="'category' + categoryIndex"
         >
           <strong>{{ category.title }}</strong>
-          <ul v-if="category.projects && category.projects.length">
-            <li
-              v-for="(project, projectIndex) in category.projects"
-              :key="'category' + categoryIndex + 'project' + projectIndex"
-            >
-              <a :href="project.url" target="_blank">
-                {{ project.title }}
-              </a>
-              <template v-if="project.description">
-                - {{ project.description }}
-              </template>
-            </li>
-          </ul>
-        </li>
-      </ul>
+          <boilerplate-card
+            v-for="(project, projectIndex) in category.projects"
+            :key="'category' + categoryIndex + 'project' + projectIndex"
+          ></boilerplate-card>
+        </div>
+        <ul
+          v-else
+          :key="'category' + categoryIndex"
+        >
+          <li>
+            <strong>{{ category.title }}</strong>
+            <ul v-if="category.projects && category.projects.length">
+              <li
+                v-for="(project, projectIndex) in category.projects"
+                :key="'category' + categoryIndex + 'project' + projectIndex"
+              >
+                <a :href="project.url" target="_blank">
+                  {{ project.title }}
+                </a>
+                <template v-if="project.description">
+                  - {{ project.description }}
+                </template>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </template>
     </div>
   </div>
 </template>
@@ -51,7 +63,8 @@ module.exports = {
   name: 'app-composition',
   components: {
     'github-corner': httpVueLoader('components/github-corner.vue'),
-    'network-error': httpVueLoader('components/network-error.vue')
+    'network-error': httpVueLoader('components/network-error.vue'),
+    'boilerplate-card': httpVueLoader('components/boilerplate-card.vue')
   },
   data: function () {
     return {
