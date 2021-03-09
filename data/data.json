@@ -220,6 +220,11 @@
         "title": "nw-electron-adapter",
         "url": "https://github.com/nwutils/nw-electron-adapter",
         "description": "A library that matches Electron's API to support the same features to make transitioning to NW.js simpler."
+      },
+      {
+        "title": "Modules-ABI",
+        "url": "https://github.com/Armaldio/modules-abi",
+        "description": "Node.js and NW.js ABI version mapping dependency"
       }
     ]
   },
