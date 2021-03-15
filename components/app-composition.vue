@@ -32,11 +32,17 @@
               v-for="(project, projectIndex) in category.projects"
               :key="'category' + categoryIndex + 'project' + projectIndex"
             >
+              <template v-if="project.site">
+                <strong>{{ project.site }}</strong> -
+              </template>
               <a :href="project.url" target="_blank">
                 {{ project.title }}
               </a>
               <template v-if="project.description">
                 - {{ project.description }}
+              </template>
+              <template v-if="project.author">
+                - by {{ project.author }}
               </template>
             </li>
           </ul>
