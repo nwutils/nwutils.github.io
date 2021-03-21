@@ -311,7 +311,7 @@
       {
         "title": "window-communication-example",
         "url": "https://github.com/nwutils/window-communication-example",
-        "description": "Example of communication between windows in NW.js"
+        "description": "Example of communication between windows in NW.js."
       }
     ]
   },
