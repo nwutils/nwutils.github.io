@@ -307,6 +307,11 @@
         "title": "nw-splash-screen-example",
         "url": "https://github.com/nwutils/nw-splash-screen-example",
         "description": "Example of using the nw-splasher library to show a splash screen while the app is loading."
+      },
+      {
+        "title": "window-communication-example",
+        "url": "https://github.com/nwutils/window-communication-example",
+        "description": "Example of communication between windows in NW.js"
       }
     ]
   },
