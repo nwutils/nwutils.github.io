@@ -23,14 +23,16 @@
 
       <template v-for="(category, categoryIndex) in categories">
         <div
-          v-if="category.title === 'Boilerplates'"
+          v-if="category.component"
           :key="'category' + categoryIndex"
         >
-          <strong>{{ category.title }}</strong>
-          <boilerplate-card
+          <h3><strong>{{ category.title }}</strong></h3>
+          <component
             v-for="(project, projectIndex) in category.projects"
             :key="'category' + categoryIndex + 'project' + projectIndex"
-          ></boilerplate-card>
+            :is="category.component"
+            :project="project"
+          ></component>
         </div>
         <ul
           v-else
@@ -48,6 +50,12 @@
                 </a>
                 <template v-if="project.description">
                   - {{ project.description }}
+                </template>
+                <template v-if="project.site">
+                  <strong>{{ project.site }}</strong> -
+                </template>
+                <template v-if="project.author">
+                  - by {{ project.author }}
                 </template>
               </li>
             </ul>

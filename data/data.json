@@ -30,7 +30,55 @@
     ]
   },
   {
+    "title": "Learn",
+    "projects": [
+      {
+        "title": "Holy shit NW.js is so easy",
+        "author": "The Jared Wilcurt",
+        "url": "https://dev.to/thejaredwilcurt/holy-shit-nw-js-is-so-easy-1h6",
+        "site": "dev.to"
+      },
+      {
+        "title": "NW.js, Vue, Vuetify",
+        "author": "Ackzell",
+        "url": "https://www.youtube.com/playlist?list=PLmJs3lfUmCdT9MyG60Oo6HM7xAn79vwZ0",
+        "site": "YouTube"
+      },
+      {
+        "title": "Making a desktop app: For complete beginners",
+        "author": "The Jared Wilcurt",
+        "url": "https://gitlab.com/TheJaredWilcurt/battery-app-workshop",
+        "site": "GitLab"
+      },
+      {
+        "title": "Packaging and distributing NW.js apps",
+        "author": "Wouter Hisschemöller",
+        "url": "https://github.com/hisschemoller/nwjs-tutorial",
+        "site": "GitHub"
+      },
+      {
+        "title": "Reducing app distribution size in NW.js",
+        "author": "The Jared Wilcurt",
+        "url": "https://dev.to/thejaredwilcurt/reducing-app-distribution-size-in-nwjs-3d5f",
+        "site": "dev.to"
+      },
+      {
+        "title": "Building a Desktop App with Vue: NW.js",
+        "author": "Natalia Tepluhina",
+        "url": "https://dev.to/vuevixens/building-a-desktop-app-with-vue-nwjs-1f9e",
+        "site": "dev.to"
+      },
+      {
+        "title": "Angular-CLI and NW.js for development",
+        "author": "The Jared Wilcurt",
+        "url": "https://dev.to/thejaredwilcurt/angular-cli-and-nwjs-for-development-49gl",
+        "site": "dev.to"
+      }
+    ]
+  },
+  {
     "title": "Boilerplates",
+    "component": "boilerplate-card",
     "projects": [
       {
         "title": "nw-vue-cli-example",
@@ -220,6 +268,11 @@
         "title": "nw-electron-adapter",
         "url": "https://github.com/nwutils/nw-electron-adapter",
         "description": "A library that matches Electron's API to support the same features to make transitioning to NW.js simpler."
+      },
+      {
+        "title": "Modules-ABI",
+        "url": "https://github.com/Armaldio/modules-abi",
+        "description": "Node.js and NW.js ABI version mapping dependency"
       }
     ]
   },
@@ -255,6 +308,11 @@
         "title": "nw-splash-screen-example",
         "url": "https://github.com/nwutils/nw-splash-screen-example",
         "description": "Example of using the nw-splasher library to show a splash screen while the app is loading."
+      },
+      {
+        "title": "window-communication-example",
+        "url": "https://github.com/nwutils/window-communication-example",
+        "description": "Example of communication between windows in NW.js."
       }
     ]
   },
