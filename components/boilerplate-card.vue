@@ -1,39 +1,89 @@
 <template>
   <div class="card">
-    <div
-      v-for="(value, key) in project"
-      :key="'key' + key"
-    >
-      <strong>{{ startCase(key) }}:</strong>
-      <span v-if="Array.isArray(value)">{{ value.join(', ') }}</span>
-      <ul v-else-if="typeof(value) === 'object'">
-        <li
-          v-for="(subValue, subKey) in value"
-          :key="'key' + key + 'subKey' + subKey"
-        >
-          <strong>{{ startCase(subKey) }}:</strong>
-          <ul v-if="typeof(subValue) === 'object'">
-            <li
-              v-for="(subSubValue, subSubKey) in subValue"
-              :key="'key' + key + 'subKey' + subKey + 'subSubKey' + subSubKey"
-            >
-              <strong>{{ startCase(subSubKey) }}:</strong>
-              <span v-if="subSubValue === true">✔️</span>
-              <span v-else-if="subSubValue === false">✖️</span>
-              <span v-else>{{ subSubValue }}</span>
+    <div>
+      <strong>Title:</strong>
+      {{ project.title }}
+    </div>
+    <div>
+      <strong>URL:</strong>
+      <a
+        v-text="project.url"
+        :href="project.url"
+        target="_blank"
+      ></a>
+    </div>
+    <div>
+      <strong>Description:</strong>
+      {{ project.description }}
+    </div>
+    <div>
+      <strong>Primary Technologies:</strong>
+      {{ project.primaryTechnologies.join(', ') }}
+    </div>
+    <div>
+      <strong>Quality:</strong>
+      <ul>
+        <li>
+          <strong>Automated Desktop Builds:</strong>
+          <span v-if="project.quality.builds.automatedDesktop">✔️</span>
+          <span v-else>✖️</span>
+        </li>
+        <li>
+          <strong>Automated Builds for the Web:</strong>
+          <span v-if="project.quality.builds.automatedWeb">✔️</span>
+          <span v-else>✖️</span>
+        </li>
+        <li>
+          <strong>Semantic Versioning:</strong>
+          <span v-if="project.quality.semanticVersioning">✔️</span>
+          <span v-else>✖️</span>
+        </li>
+        <li>
+          <strong>Release Notes:</strong>
+          <span v-if="project.quality.releaseNotes">✔️</span>
+          <span v-else>✖️</span>
+        </li>
+        <li>
+          <strong>Linting:</strong>
+          <span v-if="project.quality.linting">✔️</span>
+          <span v-else>✖️</span>
+        </li>
+        <li>
+          <strong>Unit Testing:</strong>
+          <span v-if="project.quality.testing.unit">✔️</span>
+          <span v-else>✖️</span>
+        </li>
+        <li>
+          <strong>End-to-End Testing:</strong>
+          <span v-if="project.quality.testing.e2e">✔️</span>
+          <span v-else>✖️</span>
+        </li>
+        <li>
+          <strong>Documentation:</strong>
+          <ul>
+            <li>
+              <strong>Running Locally:</strong>
+              <span v-if="project.quality.documentation.runningLocally">✔️</span>
+              <span v-else>✖️</span>
+            </li>
+            <li>
+              <strong>Building Desktop:</strong>
+              <span v-if="project.quality.documentation.buildingDesktop">✔️</span>
+              <span v-else>✖️</span>
+            </li>
+            <li>
+              <strong>Building Web:</strong>
+              <span v-if="project.quality.documentation.buildingWeb">✔️</span>
+              <span v-else>✖️</span>
+            </li>
+            <li>
+              <strong>Screenshot:</strong>
+              <span v-if="project.quality.documentation.screenshot">✔️</span>
+              <span v-else>✖️</span>
             </li>
           </ul>
-          <span v-else-if="subValue === true">✔️</span>
-          <span v-else-if="subValue === false">✖️</span>
-          <span v-else>{{ subValue }}</span>
         </li>
       </ul>
-      <a
-        v-text="value"
-        v-else-if="key === 'url'"
-        :href="value"
-      ></a>
-      <span v-else>{{ value }}</span>
     </div>
   </div>
 </template>
