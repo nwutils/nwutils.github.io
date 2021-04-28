@@ -3,26 +3,31 @@
     "title": "Connect",
     "projects": [
       {
+        "icon": "Discord",
         "title": "NW.js Discord",
         "url": "https://discord.gg/tyx267vKRH",
         "description": "Online Chat Server"
       },
       {
+        "icon": "Gitter",
         "title": "NW.js Gitter",
         "url": "https://gitter.im/nwjs/nw.js",
         "description": "Official Chatroom"
       },
       {
+        "icon": "StackOverflow",
         "title": "StackOverflow #nwjs",
         "url": "https://stackoverflow.com/questions/tagged/nwjs",
         "description": ""
       },
       {
+        "icon": "Twitter",
         "title": "Twitter #nwjs",
         "url": "https://twitter.com/hashtag/nwjs",
         "description": ""
       },
       {
+        "icon": "Reddit",
         "title": "NW.js Subreddit",
         "url": "https://old.reddit.com/nwjs",
         "description": ""
@@ -33,42 +38,49 @@
     "title": "Learn",
     "projects": [
       {
+        "icon": "dev.to",
         "title": "Holy shit NW.js is so easy",
         "author": "The Jared Wilcurt",
         "url": "https://dev.to/thejaredwilcurt/holy-shit-nw-js-is-so-easy-1h6",
         "site": "dev.to"
       },
       {
+        "icon": "YouTube",
         "title": "NW.js, Vue, Vuetify",
         "author": "Ackzell",
         "url": "https://www.youtube.com/playlist?list=PLmJs3lfUmCdT9MyG60Oo6HM7xAn79vwZ0",
         "site": "YouTube"
       },
       {
+        "icon": "GitLab",
         "title": "Making a desktop app: For complete beginners",
         "author": "The Jared Wilcurt",
         "url": "https://gitlab.com/TheJaredWilcurt/battery-app-workshop",
         "site": "GitLab"
       },
       {
+        "icon": "GitHub",
         "title": "Packaging and distributing NW.js apps",
         "author": "Wouter Hisschemöller",
         "url": "https://github.com/hisschemoller/nwjs-tutorial",
         "site": "GitHub"
       },
       {
+        "icon": "dev.to",
         "title": "Reducing app distribution size in NW.js",
         "author": "The Jared Wilcurt",
         "url": "https://dev.to/thejaredwilcurt/reducing-app-distribution-size-in-nwjs-3d5f",
         "site": "dev.to"
       },
       {
+        "icon": "dev.to",
         "title": "Building a Desktop App with Vue: NW.js",
         "author": "Natalia Tepluhina",
         "url": "https://dev.to/vuevixens/building-a-desktop-app-with-vue-nwjs-1f9e",
         "site": "dev.to"
       },
       {
+        "icon": "dev.to",
         "title": "Angular-CLI and NW.js for development",
         "author": "The Jared Wilcurt",
         "url": "https://dev.to/thejaredwilcurt/angular-cli-and-nwjs-for-development-49gl",

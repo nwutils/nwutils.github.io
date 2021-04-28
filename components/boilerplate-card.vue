@@ -17,6 +17,10 @@
         :style="'--hue: ' + Math.floor(Math.random() * 360)"
         class="pill"
       >
+        <svg-icon
+          :icon="technology"
+          :monochrome="true"
+        ></svg-icon>
         {{ technology }}
       </span>
     </div>
@@ -68,7 +72,8 @@ module.exports = {
   name: 'boilerplate-card',
   components: {
     'list-boolean': httpVueLoader('components/list-boolean.vue'),
-    'progress-pill': httpVueLoader('components/progress-pill.vue')
+    'progress-pill': httpVueLoader('components/progress-pill.vue'),
+    'svg-icon': httpVueLoader('components/svg-icon.vue')
   },
   props: {
     project: {
