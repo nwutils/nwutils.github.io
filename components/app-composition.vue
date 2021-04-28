@@ -21,33 +21,53 @@
 
       <h2>This site is still under construction (obviously)</h2>
 
-      <ul>
-        <li
-          v-for="(category, categoryIndex) in categories"
+      <template v-for="(category, categoryIndex) in categories">
+        <div
+          v-if="category.component"
           :key="'category' + categoryIndex"
         >
-          <strong>{{ category.title }}</strong>
-          <ul v-if="category.projects && category.projects.length">
-            <li
-              v-for="(project, projectIndex) in category.projects"
-              :key="'category' + categoryIndex + 'project' + projectIndex"
-            >
-              <template v-if="project.site">
-                <strong>{{ project.site }}</strong> -
-              </template>
-              <a :href="project.url" target="_blank">
-                {{ project.title }}
-              </a>
-              <template v-if="project.description">
-                - {{ project.description }}
-              </template>
-              <template v-if="project.author">
-                - by {{ project.author }}
-              </template>
+          <ul>
+            <li>
+              <h2><strong>{{ category.title }}</strong></h2>
             </li>
           </ul>
-        </li>
-      </ul>
+          <div class="flex-center">
+            <component
+              v-for="(project, projectIndex) in category.projects"
+              :key="'category' + categoryIndex + 'project' + projectIndex"
+              :is="category.component"
+              :project="project"
+            ></component>
+          </div>
+        </div>
+        <ul
+          v-else
+          :key="'category' + categoryIndex"
+        >
+          <li>
+            <h2>{{ category.title }}</h2>
+            <ul v-if="category.projects && category.projects.length">
+              <li
+                v-for="(project, projectIndex) in category.projects"
+                :key="'category' + categoryIndex + 'project' + projectIndex"
+              >
+                <a :href="project.url" target="_blank">
+                  {{ project.title }}
+                </a>
+                <template v-if="project.description">
+                  - {{ project.description }}
+                </template>
+                <template v-if="project.site">
+                  <strong>{{ project.site }}</strong> -
+                </template>
+                <template v-if="project.author">
+                  - by {{ project.author }}
+                </template>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </template>
     </div>
   </div>
 </template>
@@ -57,7 +77,8 @@ module.exports = {
   name: 'app-composition',
   components: {
     'github-corner': httpVueLoader('components/github-corner.vue'),
-    'network-error': httpVueLoader('components/network-error.vue')
+    'network-error': httpVueLoader('components/network-error.vue'),
+    'boilerplate-card': httpVueLoader('components/boilerplate-card.vue')
   },
   data: function () {
     return {

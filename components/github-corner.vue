@@ -34,7 +34,7 @@ module.exports = {
     colors: function () {
       return [
         '--github-corner-bg:' + this.background,
-        '--github-corner-octocat:'  + this.octocat
+        '--github-corner-octocat:' + this.octocat
       ].join(';');
     }
   }

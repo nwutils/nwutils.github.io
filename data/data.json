@@ -78,9 +78,10 @@
   },
   {
     "title": "Boilerplates",
+    "component": "boilerplate-card",
     "projects": [
       {
-        "title": "nw-vue-cli-example",
+        "title": "NW.js Vue-CLI Boilerplate",
         "url": "https://github.com/nwutils/nw-vue-cli-example",
         "description": "A fully featured boilerplate, complete with Vue-CLI integration and automated builds for web and desktop. Branch for starting with a splash screen as well.",
         "primaryTechnologies": [
@@ -114,7 +115,7 @@
         }
       },
       {
-        "title": "nw-angular-cli-example",
+        "title": "NW.js Angular-CLI Boilerplate",
         "url": "https://github.com/nwutils/nw-angular-cli-example",
         "description": "Angular CLI boilerplate, complete with automated builds for web and desktop.",
         "primaryTechnologies": [
@@ -147,7 +148,7 @@
         }
       },
       {
-        "title": "nw-jquery-example",
+        "title": "NW.js jQuery Boilerplate",
         "url": "https://github.com/nwutils/nw-jquery-example",
         "description": "Simple example of using jQuery in an NW.js app.",
         "primaryTechnologies": [
@@ -175,7 +176,7 @@
         }
       },
       {
-        "title": "nw-parcel-hmr-boilerplate",
+        "title": "NW.js Parcel/HMR boilerplate",
         "url": "https://github.com/nwutils/nw-parcel-hmr-boilerplate",
         "description": "Hot Module Reloading Parcel (bundler) boilerplate for NW.js",
         "primaryTechnologies": [
@@ -203,7 +204,7 @@
         }
       },
       {
-        "title": "nw-ts-game",
+        "title": "NW.js TS Game Boilerplate",
         "url": "https://github.com/blfunex/nw-ts-game",
         "description": "TypeScript Boilerplate for Game Developers",
         "primaryTechnologies": [
