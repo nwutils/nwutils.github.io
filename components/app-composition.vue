@@ -58,7 +58,7 @@
                   - {{ project.description }}
                 </template>
                 <template v-if="project.site">
-                  <strong>{{ project.site }}</strong> -
+                  <strong>{{ project.site }}</strong>
                 </template>
                 <template v-if="project.author">
                   - by {{ project.author }}
