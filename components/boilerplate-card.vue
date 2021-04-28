@@ -31,7 +31,7 @@
       title="Click to toggle quality summary"
       @click="qualityShown = !qualityShown"
     >
-      <strong>Quality:</strong>
+      <strong>Quality:</strong>&nbsp;
       <progress-pill
         v-for="(pill, pillIndex) in progressPills"
         :key="'pill' + pillIndex"
