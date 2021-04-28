@@ -88,12 +88,12 @@ ul {
     margin-bottom: 15px;
 }
 .pill {
-  display: inline-block;
-  background: HSL(var(--hue), 144%, 88.2%);
-  border: 1px solid HSL(var(--hue), 100%, 82%);
-  border-radius: 50px;
-  margin: 4px 6px 0px 0px;
-  padding: 0px 8px 0px 8px;
+    display: inline-block;
+    background: HSL(var(--hue), 144%, 88.2%);
+    border: 1px solid HSL(var(--hue), 100%, 82%);
+    border-radius: 50px;
+    margin: 4px 6px 0px 0px;
+    padding: 0px 8px 0px 8px;
 }
 
 .progress-bar {
@@ -120,18 +120,23 @@ ul {
 }
 
 .progress-cell:hover .tooltip {
-  display: block;
+    display: block;
 }
 .tooltip {
-  position: absolute;
-  display: none;
-  background: #DADADA;
-  border: 1px solid #292929;
-  border-radius: 5px;
-  padding: 0px 6px;
-  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.33);
+    position: absolute;
+    display: none;
+    background: #DADADA;
+    border: 1px solid #292929;
+    border-radius: 5px;
+    padding: 0px 6px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.33);
 }
 .enabled .tooltip {
-  background: #75FF75;
-  border-color: #094809;
+    background: #75FF75;
+    border-color: #094809;
+}
+
+.svg-icon {
+    width: 16px;
+    vertical-align: sub;
 }

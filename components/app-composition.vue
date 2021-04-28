@@ -51,14 +51,17 @@
                 v-for="(project, projectIndex) in category.projects"
                 :key="'category' + categoryIndex + 'project' + projectIndex"
               >
+                <template v-if="project.icon">
+                  <svg-icon :icon="project.icon"></svg-icon> -
+                </template>
+                <template v-if="project.site">
+                  <strong>{{ project.site }}</strong> -
+                </template>
                 <a :href="project.url" target="_blank">
                   {{ project.title }}
                 </a>
                 <template v-if="project.description">
                   - {{ project.description }}
-                </template>
-                <template v-if="project.site">
-                  <strong>{{ project.site }}</strong>
                 </template>
                 <template v-if="project.author">
                   - by {{ project.author }}
@@ -76,9 +79,10 @@
 module.exports = {
   name: 'app-composition',
   components: {
+    'boilerplate-card': httpVueLoader('components/boilerplate-card.vue'),
     'github-corner': httpVueLoader('components/github-corner.vue'),
     'network-error': httpVueLoader('components/network-error.vue'),
-    'boilerplate-card': httpVueLoader('components/boilerplate-card.vue')
+    'svg-icon': httpVueLoader('components/svg-icon.vue')
   },
   data: function () {
     return {
