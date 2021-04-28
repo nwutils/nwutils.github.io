@@ -112,6 +112,12 @@ ul {
     background: #4EEE4E;
     border-color: #589934;
 }
+.progress-cell:hover {
+    background: #75FF75;
+}
+.progress-cell.enabled:hover {
+    background: #75FF75;
+}
 .progress-cell:first-of-type {
     border-radius: 10px 0px 0px 10px;
 }
@@ -129,7 +135,6 @@ ul {
     border: 1px solid #292929;
     border-radius: 5px;
     padding: 0px 6px;
-    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.33);
 }
 .enabled .tooltip {
     background: #75FF75;
