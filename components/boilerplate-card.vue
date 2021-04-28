@@ -138,7 +138,12 @@ module.exports = {
     progressPills: function () {
       return [
         ...this.qualityNormal,
-        ...this.qualityDocumentation
+        ...this.qualityDocumentation.map(function (pill) {
+          return {
+            ...pill,
+            title: 'Documentation: ' + pill.title
+          };
+        })
       ];
     }
   }

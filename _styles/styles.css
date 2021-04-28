@@ -118,3 +118,20 @@ ul {
 .progress-cell:last-of-type {
     border-radius: 0px 10px 10px 0px;
 }
+
+.progress-cell:hover .tooltip {
+  display: block;
+}
+.tooltip {
+  position: absolute;
+  display: none;
+  background: #DADADA;
+  border: 1px solid #292929;
+  border-radius: 5px;
+  padding: 0px 6px;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.33);
+}
+.enabled .tooltip {
+  background: #75FF75;
+  border-color: #094809;
+}
