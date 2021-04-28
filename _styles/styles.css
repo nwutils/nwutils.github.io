@@ -145,3 +145,11 @@ ul {
     width: 16px;
     vertical-align: sub;
 }
+
+@media screen and (max-width:1032px) {
+    .card {
+        width: 96%;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+}
