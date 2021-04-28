@@ -1,3 +1,7 @@
+:root {
+    --hue: 0;
+}
+
 *,
 *:before,
 *:after {
@@ -58,11 +62,59 @@ ul {
     max-width: 100px;
 }
 
+.flex-center {
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+}
 .card {
-    display: inline-block;
-    width: 40%;
-    border: 1px solid #000;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 48%;
+    min-height: 209px;
+    background: HSL(243, 66%, 96%);
+    border: 1px solid HSL(243, 66%, 89%);
+    border-radius: 17px;
     margin: 10px;
-    padding: 10px;
-    vertical-align: top;
+    padding: 26px;
+    text-align: left;
+}
+.card-title {
+    margin: 0px 0px 15px 0px;
+}
+.pill-container {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.pill {
+  display: inline-block;
+  background: HSL(var(--hue), 144%, 88.2%);
+  border: 1px solid HSL(var(--hue), 100%, 82%);
+  border-radius: 50px;
+  margin: 4px 6px 0px 0px;
+  padding: 0px 8px 0px 8px;
+}
+
+.progress-bar {
+    display: flex;
+    width: 100%;
+}
+.progress-cell {
+    display: inline-flex;
+    width: 100%;
+    height: 22px;
+    background: #CCC;
+    border: 1px solid #868686;
+    cursor: pointer;
+}
+.progress-cell.enabled {
+    background: #4EEE4E;
+    border-color: #589934;
+}
+.progress-cell:first-of-type {
+    border-radius: 10px 0px 0px 10px;
+}
+.progress-cell:last-of-type {
+    border-radius: 0px 10px 10px 0px;
 }

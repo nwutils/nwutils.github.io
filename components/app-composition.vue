@@ -26,20 +26,26 @@
           v-if="category.component"
           :key="'category' + categoryIndex"
         >
-          <h3><strong>{{ category.title }}</strong></h3>
-          <component
-            v-for="(project, projectIndex) in category.projects"
-            :key="'category' + categoryIndex + 'project' + projectIndex"
-            :is="category.component"
-            :project="project"
-          ></component>
+          <ul>
+            <li>
+              <h2><strong>{{ category.title }}</strong></h2>
+            </li>
+          </ul>
+          <div class="flex-center">
+            <component
+              v-for="(project, projectIndex) in category.projects"
+              :key="'category' + categoryIndex + 'project' + projectIndex"
+              :is="category.component"
+              :project="project"
+            ></component>
+          </div>
         </div>
         <ul
           v-else
           :key="'category' + categoryIndex"
         >
           <li>
-            <strong>{{ category.title }}</strong>
+            <h2>{{ category.title }}</h2>
             <ul v-if="category.projects && category.projects.length">
               <li
                 v-for="(project, projectIndex) in category.projects"

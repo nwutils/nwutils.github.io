@@ -1,86 +1,61 @@
 <template>
   <div class="card">
-    <div>
-      <strong>Title:</strong>
-      {{ project.title }}
-    </div>
-    <div>
-      <strong>URL:</strong>
+    <h3 class="card-title">
       <a
-        v-text="project.url"
+        v-text="project.title"
         :href="project.url"
         target="_blank"
       ></a>
-    </div>
+    </h3>
     <div>
-      <strong>Description:</strong>
       {{ project.description }}
     </div>
-    <div>
-      <strong>Primary Technologies:</strong>
-      {{ project.primaryTechnologies.join(', ') }}
+    <div class="pill-container">
+      <span
+        v-for="(technology, technologyIndex) in project.primaryTechnologies"
+        :key="'technology' + technologyIndex"
+        class="pill"
+        :style="'--hue: ' + Math.floor(Math.random() * 360)"
+      >
+        {{ technology }}
+      </span>
     </div>
-    <div>
+
+    <div
+      v-if="!qualityShown"
+      class="progress-bar"
+      title="Click to toggle quality summary"
+      @click="qualityShown = !qualityShown"
+    >
+      <strong>Quality:</strong>
+      <progress-pill
+        v-for="(pill, pillIndex) in progressPills"
+        :key="'pill' + pillIndex"
+        :title="pill.title"
+        :enabled="pill.enabled"
+      ></progress-pill>
+    </div>
+    <div
+      v-else
+      @click="qualityShown = !qualityShown"
+    >
       <strong>Quality:</strong>
       <ul>
-        <li>
-          <strong>Automated Desktop Builds:</strong>
-          <span v-if="project.quality.builds.automatedDesktop">✔️</span>
-          <span v-else>✖️</span>
-        </li>
-        <li>
-          <strong>Automated Builds for the Web:</strong>
-          <span v-if="project.quality.builds.automatedWeb">✔️</span>
-          <span v-else>✖️</span>
-        </li>
-        <li>
-          <strong>Semantic Versioning:</strong>
-          <span v-if="project.quality.semanticVersioning">✔️</span>
-          <span v-else>✖️</span>
-        </li>
-        <li>
-          <strong>Release Notes:</strong>
-          <span v-if="project.quality.releaseNotes">✔️</span>
-          <span v-else>✖️</span>
-        </li>
-        <li>
-          <strong>Linting:</strong>
-          <span v-if="project.quality.linting">✔️</span>
-          <span v-else>✖️</span>
-        </li>
-        <li>
-          <strong>Unit Testing:</strong>
-          <span v-if="project.quality.testing.unit">✔️</span>
-          <span v-else>✖️</span>
-        </li>
-        <li>
-          <strong>End-to-End Testing:</strong>
-          <span v-if="project.quality.testing.e2e">✔️</span>
-          <span v-else>✖️</span>
-        </li>
+        <list-boolean
+          v-for="(pill, pillIndex) in qualityNormal"
+          :key="'normalPill' + pillIndex"
+          :title="pill.title"
+          :enabled="pill.enabled"
+        ></list-boolean>
         <li>
           <strong>Documentation:</strong>
           <ul>
-            <li>
-              <strong>Running Locally:</strong>
-              <span v-if="project.quality.documentation.runningLocally">✔️</span>
-              <span v-else>✖️</span>
-            </li>
-            <li>
-              <strong>Building Desktop:</strong>
-              <span v-if="project.quality.documentation.buildingDesktop">✔️</span>
-              <span v-else>✖️</span>
-            </li>
-            <li>
-              <strong>Building Web:</strong>
-              <span v-if="project.quality.documentation.buildingWeb">✔️</span>
-              <span v-else>✖️</span>
-            </li>
-            <li>
-              <strong>Screenshot:</strong>
-              <span v-if="project.quality.documentation.screenshot">✔️</span>
-              <span v-else>✖️</span>
-            </li>
+            <list-boolean
+              v-for="(pill, pillIndex) in qualityDocumentation"
+              :key="'documentationPill' + pillIndex"
+              :title="pill.title"
+              :enabled="pill.enabled"
+            ></list-boolean>
           </ul>
         </li>
       </ul>
@@ -91,6 +66,10 @@
 <script>
 module.exports = {
   name: 'boilerplate-card',
+  components: {
+    'list-boolean': httpVueLoader('components/list-boolean.vue'),
+    'progress-pill': httpVueLoader('components/progress-pill.vue')
+  },
   props: {
     project: {
       type: Object,
@@ -98,12 +77,69 @@ module.exports = {
       default: undefined
     }
   },
-  methods: {
-    startCase: function (str) {
-      if (['url', 'e2e'].includes(str.toLowerCase())) {
-        return str.toUpperCase();
-      }
-      return window._startCase(str);
+  data: function () {
+    return {
+      qualityShown: false
+    };
+  },
+  computed: {
+    qualityNormal: function () {
+      return [
+        {
+          title: 'Automated Desktop Builds',
+          enabled: this.project.quality.builds.automatedDesktop
+        },
+        {
+          title: 'Automated Builds for the Web',
+          enabled: this.project.quality.builds.automatedWeb
+        },
+        {
+          title: 'Semantic Versioning',
+          enabled: this.project.quality.semanticVersioning
+        },
+        {
+          title: 'Release Notes',
+          enabled: this.project.quality.releaseNotes
+        },
+        {
+          title: 'Linting',
+          enabled: this.project.quality.linting
+        },
+        {
+          title: 'Unit Testing',
+          enabled: this.project.quality.testing.unit
+        },
+        {
+          title: 'End-to-End Testing',
+          enabled: this.project.quality.testing.e2e
+        }
+      ];
+    },
+    qualityDocumentation: function () {
+      return [
+        {
+          title: 'Running Locally',
+          enabled: this.project.quality.documentation.runningLocally
+        },
+        {
+          title: 'Building Desktop',
+          enabled: this.project.quality.documentation.buildingDesktop
+        },
+        {
+          title: 'Building Web',
+          enabled: this.project.quality.documentation.buildingWeb
+        },
+        {
+          title: 'Screenshot',
+          enabled: this.project.quality.documentation.screenshot
+        }
+      ];
+    },
+    progressPills: function () {
+      return [
+        ...this.qualityNormal,
+        ...this.qualityDocumentation
+      ];
     }
   }
 };
