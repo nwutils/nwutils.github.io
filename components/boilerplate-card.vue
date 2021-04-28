@@ -14,8 +14,8 @@
       <span
         v-for="(technology, technologyIndex) in project.primaryTechnologies"
         :key="'technology' + technologyIndex"
-        class="pill"
         :style="'--hue: ' + Math.floor(Math.random() * 360)"
+        class="pill"
       >
         {{ technology }}
       </span>
