@@ -80,6 +80,7 @@ module.exports = {
   name: 'app-composition',
   components: {
     'boilerplate-card': httpVueLoader('components/boilerplate-card.vue'),
+    'connect-card': httpVueLoader('components/connect-card.vue'),
     'github-corner': httpVueLoader('components/github-corner.vue'),
     'network-error': httpVueLoader('components/network-error.vue'),
     'svg-icon': httpVueLoader('components/svg-icon.vue')
