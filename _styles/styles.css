@@ -113,7 +113,7 @@ ul {
     border-color: #589934;
 }
 .progress-cell:hover {
-    background: #75FF75;
+    background: #DDD;
 }
 .progress-cell.enabled:hover {
     background: #75FF75;
@@ -144,6 +144,14 @@ ul {
 .svg-icon {
     width: 16px;
     vertical-align: sub;
+}
+
+.connect-card {
+    display: inline-block;
+    margin: 0px 2% 16px;
+}
+.connect-card .svg-icon {
+    width: 70px;
 }
 
 @media screen and (max-width:1032px) {

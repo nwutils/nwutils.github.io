@@ -1,36 +1,42 @@
 [
   {
     "title": "Connect",
+    "component": "connect-card",
     "projects": [
       {
         "icon": "Discord",
-        "title": "NW.js Discord",
-        "url": "https://discord.gg/tyx267vKRH",
-        "description": "Online Chat Server"
+        "title": "Discord",
+        "url": "https://discord.gg/tyx267vKRH"
       },
       {
         "icon": "Gitter",
-        "title": "NW.js Gitter",
-        "url": "https://gitter.im/nwjs/nw.js",
-        "description": "Official Chatroom"
+        "title": "Gitter",
+        "url": "https://gitter.im/nwjs/nw.js"
       },
       {
         "icon": "StackOverflow",
-        "title": "StackOverflow #nwjs",
-        "url": "https://stackoverflow.com/questions/tagged/nwjs",
-        "description": ""
+        "title": "StackOverflow",
+        "url": "https://stackoverflow.com/questions/tagged/nwjs"
+      },
+      {
+        "icon": "GoogleGroups",
+        "title": "Google Group",
+        "url": "https://groups.google.com/g/nwjs-general?pli=1"
       },
       {
         "icon": "Twitter",
-        "title": "Twitter #nwjs",
-        "url": "https://twitter.com/hashtag/nwjs",
-        "description": ""
+        "title": "@nw_js",
+        "url": "https://twitter.com/hashtag/nwjs"
+      },
+      {
+        "icon": "Twitter",
+        "title": "#nwjs",
+        "url": "https://twitter.com/hashtag/nwjs"
       },
       {
         "icon": "Reddit",
-        "title": "NW.js Subreddit",
-        "url": "https://old.reddit.com/nwjs",
-        "description": ""
+        "title": "Reddit",
+        "url": "https://old.reddit.com/nwjs"
       }
     ]
   },
@@ -249,6 +255,36 @@
     ]
   },
   {
+    "title": "Code Examples",
+    "projects": [
+      {
+        "title": "frameless-example",
+        "url": "https://github.com/nwutils/frameless-example",
+        "description": "Example of creating an NW.js app without a native Window frame from the OS. Includes styled & unstyled example and min/max/restore/close window controls."
+      },
+      {
+        "title": "nw-local-server-example",
+        "url": "https://github.com/nwutils/nw-local-server-example",
+        "description": "Example of an NW.js app running from a built-in local web server."
+      },
+      {
+        "title": "nw-tray-example",
+        "url": "https://github.com/nwutils/nw-tray-example",
+        "description": "Example of running an NW.js app from the tray as a tray icon with a right-click menu."
+      },
+      {
+        "title": "nw-splash-screen-example",
+        "url": "https://github.com/nwutils/nw-splash-screen-example",
+        "description": "Example of using the nw-splasher library to show a splash screen while the app is loading."
+      },
+      {
+        "title": "window-communication-example",
+        "url": "https://github.com/nwutils/window-communication-example",
+        "description": "Example of communication between windows in NW.js."
+      }
+    ]
+  },
+  {
     "title": "Node.js Libraries",
     "projects": [
       {
@@ -295,36 +331,6 @@
         "title": "nw-img-vue",
         "url": "https://github.com/nwutils/nw-img-vue",
         "description": "A Vue component that stores images in a local temp location and loads them from there first. If used outside of NW.js, it just displays the images normally."
-      }
-    ]
-  },
-  {
-    "title": "Code Examples",
-    "projects": [
-      {
-        "title": "frameless-example",
-        "url": "https://github.com/nwutils/frameless-example",
-        "description": "Example of creating an NW.js app without a native Window frame from the OS. Includes styled & unstyled example and min/max/restore/close window controls."
-      },
-      {
-        "title": "nw-local-server-example",
-        "url": "https://github.com/nwutils/nw-local-server-example",
-        "description": "Example of an NW.js app running from a built-in local web server."
-      },
-      {
-        "title": "nw-tray-example",
-        "url": "https://github.com/nwutils/nw-tray-example",
-        "description": "Example of running an NW.js app from the tray as a tray icon with a right-click menu."
-      },
-      {
-        "title": "nw-splash-screen-example",
-        "url": "https://github.com/nwutils/nw-splash-screen-example",
-        "description": "Example of using the nw-splasher library to show a splash screen while the app is loading."
-      },
-      {
-        "title": "window-communication-example",
-        "url": "https://github.com/nwutils/window-communication-example",
-        "description": "Example of communication between windows in NW.js."
       }
     ]
   },
