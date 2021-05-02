@@ -1,9 +1,15 @@
 <template>
   <div>
+    <header>
+      <h1>
+        <img class="logo" src="/_imgs/meta/fluid.png" alt="NW Utils logo" />
+        NW.js Utilities
+      </h1>
+    </header>
     <div class="container">
       <github-corner
         repo="https://github.com/nwutils/nwutils.github.io"
-        background="#0084FF"
+        background="#474544"
         octocat="#FFF"
       ></github-corner>
 
@@ -14,23 +20,22 @@
 
       <div v-if="loading" class="loading-spinner"></div>
 
-      <h1>
-        <img class="logo" src="/_imgs/meta/fluid.png" alt="NW Utils logo" />
-        NW.js Utilities
-      </h1>
+      <p>
+        <a href="https://nwjs.io" target="_blank">NW.js</a> is a runtime environment that simplifies the process of creating Cross-Platform Desktop Apps (XPDA's) by using a simple HTML/CSS/JS/Node.js approach.
+        <!-- Ya know, like Electron, except it's actually good at it. -->
+        This site catalogs resources for the NW.js community.
+      </p>
 
-      <h2>This site is still under construction (obviously)</h2>
+      <p><strong>This site is still under construction</strong></p>
 
       <template v-for="(category, categoryIndex) in categories">
         <div
           v-if="category.component"
           :key="'category' + categoryIndex"
         >
-          <ul>
-            <li>
-              <h2><strong>{{ category.title }}</strong></h2>
-            </li>
-          </ul>
+          <h2 :id="category.title">
+            <strong>{{ category.title }}</strong>
+          </h2>
           <div class="flex-center">
             <component
               v-for="(project, projectIndex) in category.projects"
@@ -40,38 +45,38 @@
             ></component>
           </div>
         </div>
-        <ul
+        <div
           v-else
           :key="'category' + categoryIndex"
         >
-          <li>
-            <h2>{{ category.title }}</h2>
-            <ul v-if="category.projects && category.projects.length">
-              <li
-                v-for="(project, projectIndex) in category.projects"
-                :key="'category' + categoryIndex + 'project' + projectIndex"
-              >
-                <template v-if="project.icon">
-                  <svg-icon :icon="project.icon"></svg-icon> -
-                </template>
-                <template v-if="project.site">
-                  <strong>{{ project.site }}</strong> -
-                </template>
-                <a :href="project.url" target="_blank">
-                  {{ project.title }}
-                </a>
-                <template v-if="project.description">
-                  - {{ project.description }}
-                </template>
-                <template v-if="project.author">
-                  - by {{ project.author }}
-                </template>
-              </li>
-            </ul>
-          </li>
-        </ul>
+          <h2>{{ category.title }}</h2>
+          <ul v-if="category.projects && category.projects.length">
+            <li
+              v-for="(project, projectIndex) in category.projects"
+              :key="'category' + categoryIndex + 'project' + projectIndex"
+            >
+              <template v-if="project.site">
+                <strong>{{ project.site }}</strong> -
+              </template>
+              <a :href="project.url" target="_blank">
+                {{ project.title }}
+              </a>
+              <template v-if="project.description">
+                - {{ project.description }}
+              </template>
+              <template v-if="project.author">
+                - by {{ project.author }}
+              </template>
+            </li>
+          </ul>
+        </div>
       </template>
     </div>
+    <footer>
+      <div class="footer-container">
+        {{ (new Date()).getFullYear() }}
+      </div>
+    </footer>
   </div>
 </template>
 
@@ -82,8 +87,8 @@ module.exports = {
     'boilerplate-card': httpVueLoader('components/boilerplate-card.vue'),
     'connect-card': httpVueLoader('components/connect-card.vue'),
     'github-corner': httpVueLoader('components/github-corner.vue'),
-    'network-error': httpVueLoader('components/network-error.vue'),
-    'svg-icon': httpVueLoader('components/svg-icon.vue')
+    'learn-card': httpVueLoader('components/learn-card.vue'),
+    'network-error': httpVueLoader('components/network-error.vue')
   },
   data: function () {
     return {

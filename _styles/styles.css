@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 :root {
     --hue: 0;
 }
@@ -50,14 +52,71 @@
     }
 }
 
+/*
+#A12923 dark red
+#C43531 light red
+#C8C7C7 light gray
+#474544 dark gray
+*/
 
 body {
-    font-family: Trebuchet MS, sans-serif;
+    background-color: #C43531;
+    background-image: url('../_imgs/bg-pattern.png');
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    color: #272524;
+    font-family: Jost, Trebuchet MS, sans-serif;
     line-height: 1.3;
+}
+h1 {
+    margin: 0px;
+}
+h2 {
+    margin: 85px auto 5px auto;
+    text-align: center;
 }
 ul {
     margin-bottom: 16px;
 }
+header {
+    max-width: 1200px;
+    background: #C43531;
+    border-width: 0px 10px 0px 10px;
+    border-style: solid;
+    border-color: #A12923;
+    margin: 0px auto;
+    padding: 18px 20px;
+    color: #FFF;
+}
+footer {
+    width: 100%;
+    min-height: 200px;
+    background: #474544;
+    color: #C8C7C7;
+}
+
+.container {
+    max-width: 1200px;
+    background: #FFF;
+    border-width: 0px 10px 0px 10px;
+    border-style: solid;
+    border-color: #A12923;
+    margin: 0px auto;
+    padding: 18px 20px 85px 20px;
+}
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    height: 200px;
+    margin: 0px auto;
+    padding: 30px 20px 18px 20px;
+    font-size: 81px;
+    font-weight: 700;
+}
+
 .logo {
     max-width: 100px;
 }
@@ -154,8 +213,45 @@ ul {
     width: 70px;
 }
 
-@media screen and (max-width:1032px) {
+.learn-card {
+  display: inline-flex;
+  align-items: center;
+  background: HSL(243, 66%, 96%);
+  border: 1px solid HSL(243, 66%, 89%);
+  border-radius: 18px;
+  margin: 10px;
+  text-align: left;
+  vertical-align: top;
+}
+.learn-card-image-container {
+  display: inline-flex;
+  align-items: center;
+  width: 90px;
+  height: 90px;
+  padding: 10px;
+}
+.learn-card-details {
+  display: inline-block;
+  padding: 0px 10px 0px 0px;
+}
+.learn-card-image,
+.learn-card .svg-icon {
+  width: 100%;
+  max-width: 70px;
+  max-height: 70px;
+}
+
+
+@media screen and (max-width: 1032px) {
     .card {
+        width: 96%;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 557px) {
+    .learn-card {
         width: 96%;
         margin-right: 0px;
         margin-left: 0px;
