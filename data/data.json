@@ -19,7 +19,7 @@
         "url": "https://stackoverflow.com/questions/tagged/nwjs"
       },
       {
-        "icon": "GoogleGroups",
+        "icon": "Google Groups",
         "title": "Google Group",
         "url": "https://groups.google.com/g/nwjs-general?pli=1"
       },
@@ -42,6 +42,7 @@
   },
   {
     "title": "Learn",
+    "component": "learn-card",
     "projects": [
       {
         "icon": "dev.to",
@@ -73,6 +74,7 @@
       },
       {
         "icon": "dev.to",
+        "image": "reduce-app-size.png",
         "title": "Reducing app distribution size in NW.js",
         "author": "The Jared Wilcurt",
         "url": "https://dev.to/thejaredwilcurt/reducing-app-distribution-size-in-nwjs-3d5f",
@@ -82,11 +84,12 @@
         "icon": "dev.to",
         "title": "Building a Desktop App with Vue: NW.js",
         "author": "Natalia Tepluhina",
-        "url": "https://dev.to/vuevixens/building-a-desktop-app-with-vue-nwjs-1f9e",
+        "url": "https://dev.to/n_tepluhina/building-a-desktop-app-with-vue-nwjs-1f9e",
         "site": "dev.to"
       },
       {
         "icon": "dev.to",
+        "image": "nw-angular-cli.png",
         "title": "Angular-CLI and NW.js for development",
         "author": "The Jared Wilcurt",
         "url": "https://dev.to/thejaredwilcurt/angular-cli-and-nwjs-for-development-49gl",
