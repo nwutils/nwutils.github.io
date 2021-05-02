@@ -1,8 +1,10 @@
 <template>
   <div class="connect-card">
     <a
+      :aria-label="project.title + ' link'"
       :href="project.url"
       target="_blank"
+      rel="noopener"
       @click="open"
     >
       <svg-icon :icon="project.icon"></svg-icon>

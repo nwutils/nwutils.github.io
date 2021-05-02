@@ -21,7 +21,13 @@
       <div v-if="loading" class="loading-spinner"></div>
 
       <p>
-        <a href="https://nwjs.io" target="_blank">NW.js</a> is a runtime environment that simplifies the process of creating Cross-Platform Desktop Apps (XPDA's) by using a simple HTML/CSS/JS/Node.js approach.
+        <a
+          v-text="'NW.js'"
+          href="https://nwjs.io"
+          target="_blank"
+          rel="noopener"
+        ></a>
+        is a runtime environment that simplifies the process of creating Cross-Platform Desktop Apps (XPDA's) by using a simple HTML/CSS/JS/Node.js approach.
         <!-- Ya know, like Electron, except it's actually good at it. -->
         This site catalogs resources for the NW.js community.
       </p>
@@ -58,7 +64,11 @@
               <template v-if="project.site">
                 <strong>{{ project.site }}</strong> -
               </template>
-              <a :href="project.url" target="_blank">
+              <a
+                :href="project.url"
+                target="_blank"
+                rel="noopener"
+              >
                 {{ project.title }}
               </a>
               <template v-if="project.description">

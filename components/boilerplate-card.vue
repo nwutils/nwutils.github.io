@@ -5,6 +5,7 @@
         v-text="project.title"
         :href="project.url"
         target="_blank"
+        rel="noopener"
       ></a>
     </h3>
     <div>
@@ -29,6 +30,9 @@
       v-if="!qualityShown"
       class="progress-bar"
       title="Click to toggle quality summary"
+      tabindex="0"
+      role="button"
+      @keyup.prevent.enter="qualityShown = !qualityShown"
       @click="qualityShown = !qualityShown"
     >
       <strong>Quality:</strong>&nbsp;
@@ -41,6 +45,9 @@
     </div>
     <div
       v-else
+      tabindex="0"
+      role="button"
+      @keyup.prevent.enter="qualityShown = !qualityShown"
       @click="qualityShown = !qualityShown"
     >
       <strong>Quality:</strong>

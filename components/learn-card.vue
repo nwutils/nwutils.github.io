@@ -1,7 +1,12 @@
 <template>
   <div class="learn-card">
     <div class="learn-card-image-container">
-      <a :href="project.url" target="_blank">
+      <a
+        :aria-label="project.title + ' link'"
+        :href="project.url"
+        target="_blank"
+        rel="noopener"
+      >
         <img
           v-if="project.image"
           :alt="project.title + ' preview image'"
@@ -13,9 +18,12 @@
     </div>
     <div class="learn-card-details">
       <div>
-        <a :href="project.url" target="_blank">
-          {{ project.title }}
-        </a>
+        <a
+          v-text="project.title"
+          :href="project.url"
+          target="_blank"
+          rel="noopener"
+        ></a>
       </div>
       <div><strong>{{ project.author }}</strong></div>
       <div><em>{{ project.site }}</em></div>
