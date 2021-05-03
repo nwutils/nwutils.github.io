@@ -39,8 +39,14 @@
           v-if="category.component"
           :key="'category' + categoryIndex"
         >
-          <h2 :id="category.title">
-            <strong>{{ category.title }}</strong>
+          <h2 :id="createId(category.title)">
+            <strong>
+              <a
+                v-text="category.title"
+                :href="'#' + createId(category.title)"
+                @click.prevent="scrollTo($event)"
+              ></a>
+            </strong>
           </h2>
           <div class="flex-center">
             <component
@@ -55,7 +61,15 @@
           v-else
           :key="'category' + categoryIndex"
         >
-          <h2>{{ category.title }}</h2>
+          <h2 :id="createId(category.title)">
+            <strong>
+              <a
+                v-text="category.title"
+                :href="'#' + createId(category.title)"
+                @click.prevent="scrollTo($event)"
+              ></a>
+            </strong>
+          </h2>
           <ul v-if="category.projects && category.projects.length">
             <li
               v-for="(project, projectIndex) in category.projects"
@@ -104,7 +118,8 @@ module.exports = {
     return {
       loading: true,
       networkError: false,
-      categories: []
+      categories: [],
+      scroll: undefined
     };
   },
   methods: {
@@ -122,12 +137,43 @@ module.exports = {
           }
           this.loading = false;
         });
+    },
+    createId: function (title) {
+      let id = title.toLowerCase();
+      id = id.split(' ').join('');
+      id = id.split('.').join('');
+      id = id.split('(').join('');
+      id = id.split(')').join('');
+      return id;
+    },
+    scrollInit: function () {
+      this.scroll = new SmoothScroll('a[href*="#"]', {
+        speed: 2000,
+        easing: 'easeOutCubic',
+        updateURL: true,
+        popstate: true
+      });
+    },
+    scrollTo: function (evt) {
+      let hash;
+      if (evt && evt.target && evt.target.hash) {
+        hash = evt.target.hash;
+        history.pushState({}, '', hash);
+      }
+      hash = window.location.hash;
+      if (hash) {
+        this.scroll.animateScroll(document.querySelector(hash));
+      }
     }
   },
   created: function () {
     if (!this.categories.length) {
       this.getSiteData();
     }
+    setTimeout(() => {
+      this.scrollInit();
+      this.scrollTo();
+    }, 350);
   }
 };
 </script>

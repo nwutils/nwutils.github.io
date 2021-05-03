@@ -80,6 +80,15 @@ h2 {
     margin: 85px auto 5px auto;
     text-align: center;
 }
+h2 a {
+    text-decoration: none;
+}
+h2 a:hover {
+    text-decoration: underline;
+}
+h2:hover:before {
+    content: '#';
+}
 ul {
     margin-bottom: 16px;
 }
