@@ -143,6 +143,7 @@ footer {
     text-align: center;
 }
 .card {
+    position: relative;
     display: inline-flex;
     flex-direction: column;
     justify-content: space-between;
@@ -150,10 +151,19 @@ footer {
     min-height: 209px;
     background: HSL(2.9, 66%, 96%);
     border: 1px solid HSL(2.9, 66%, 89%);
-    border-radius: 17px;
     margin: 10px;
-    padding: 26px;
+    padding: 38px 26px 26px 26px;
     text-align: left;
+}
+.card:before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    display: block;
+    width: calc(100% + 2px);
+    height: 21px;
+    background: url('../_imgs/bg-pattern.png');
 }
 .card-title {
     margin: 0px 0px 15px 0px;
