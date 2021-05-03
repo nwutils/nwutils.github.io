@@ -80,6 +80,7 @@ h1 {
 h2 {
     margin: 85px auto 5px auto;
     text-align: center;
+    scroll-margin-top: 10px;
 }
 h2 a {
     text-decoration: none;
@@ -257,7 +258,7 @@ footer {
 .learn-card {
     display: inline-flex;
     align-items: center;
-    height: 72px;
+    height: 100px;
     background: #FAFF65;
     margin: 10px;
     text-align: left;
@@ -281,7 +282,7 @@ footer {
     display: inline-flex;
     flex-direction: column;
     justify-content: space-around;
-    width: calc(100% - 92px);
+    width: calc(100% - 100px);
     height: 100%;
     background: #474544;
     padding: 6px 10px;
@@ -295,11 +296,10 @@ footer {
 .learn-card-image,
 .learn-card .svg-icon {
     width: 100%;
-    min-width: 70px;
-    max-width: 70px;
-    max-height: 55px;
+    min-width: 85px;
+    max-width: 85px;
+    max-height: 70px;
 }
-
 
 @media screen and (max-width: 1032px) {
     .card {
