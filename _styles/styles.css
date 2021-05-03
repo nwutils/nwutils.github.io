@@ -75,12 +75,11 @@ a:visited {
 }
 h1 {
     margin: 0px;
-    font-size: 8vw;
+    font-size: 7vw;
 }
 h2 {
     margin: 85px auto 5px auto;
     text-align: center;
-    scroll-margin-top: 10px;
 }
 h2 a {
     text-decoration: none;

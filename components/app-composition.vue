@@ -169,8 +169,8 @@ module.exports = {
           durationRelative: 500,
           durationMin: 500,
           durationMax: 5000,
-          easing: 'easeOutCubic'
-          // offset: null
+          easing: 'easeOutCubic',
+          offset: 15
         });
         smoothScroll.init();
 
