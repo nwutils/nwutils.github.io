@@ -17,7 +17,7 @@
       </a>
     </div>
     <div class="learn-card-details">
-      <div>
+      <div class="learn-card-title">
         <a
           v-text="project.title"
           :href="project.url"
@@ -25,8 +25,8 @@
           rel="noopener"
         ></a>
       </div>
-      <div><strong>{{ project.author }}</strong></div>
-      <div><em>{{ project.site }}</em></div>
+      <div class="learn-card-author"><strong>{{ project.author }}</strong></div>
+      <div class="learn-card-site"><em>{{ project.site }}</em></div>
     </div>
   </div>
 </template>

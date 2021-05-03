@@ -5,11 +5,10 @@
     @mousemove.stop="log($event)"
   >
     <span
+      v-text="title"
       :style="position"
       class="tooltip"
-    >
-      {{ title }}
-    </span>
+    ></span>
   </span>
 </template>
 
@@ -43,14 +42,14 @@ module.exports = {
         el = el.childNodes[0];
       }
       this.width = el.offsetWidth;
-      this.mouseX = evt.pageX;
-      this.mouseY = evt.pageY;
+      this.mouseX = evt.layerX;
+      this.mouseY = evt.layerY;
     }
   },
   computed: {
     position: function () {
       return {
-        top: (this.mouseY - 25) + 'px',
+        top: (this.mouseY - 30) + 'px',
         left: Math.floor(this.mouseX - (this.width * 0.5)) + 'px'
       };
     }

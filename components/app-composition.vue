@@ -1,16 +1,16 @@
 <template>
   <div>
     <header>
+      <img class="logo" src="/_imgs/meta/fluid.png" alt="NW Utils logo" />
       <h1>
-        <img class="logo" src="/_imgs/meta/fluid.png" alt="NW Utils logo" />
         NW.js Utilities
       </h1>
     </header>
     <div class="container">
       <github-corner
         repo="https://github.com/nwutils/nwutils.github.io"
-        background="#474544"
-        octocat="#FFF"
+        background="#FFF"
+        octocat="#C43531"
       ></github-corner>
 
       <network-error
