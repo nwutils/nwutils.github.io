@@ -7,6 +7,23 @@
       </h1>
     </header>
     <div class="container">
+      <nav>
+        <strong>Navigation:</strong>
+        <span
+          v-for="(category, categoryIndex) in categories"
+          :key="'nav' + categoryIndex"
+        >
+          <a
+            v-text="category.title"
+            :href="'#' + createId(category.title)"
+            @click="scrollTo($event)"
+          ></a>
+          <template v-if="categoryIndex < categories.length - 1">
+            |
+          </template>
+        </span>
+      </nav>
+      <hr />
       <github-corner
         repo="https://github.com/nwutils/nwutils.github.io"
         background="#FFF"
@@ -32,8 +49,6 @@
         This site catalogs resources for the NW.js community.
       </p>
 
-      <p><strong>This site is still under construction</strong></p>
-
       <template v-for="(category, categoryIndex) in categories">
         <div
           v-if="category.component"
@@ -44,7 +59,7 @@
               <a
                 v-text="category.title"
                 :href="'#' + createId(category.title)"
-                @click.prevent="scrollTo($event)"
+                @click="scrollTo($event)"
               ></a>
             </strong>
           </h2>
@@ -66,7 +81,7 @@
               <a
                 v-text="category.title"
                 :href="'#' + createId(category.title)"
-                @click.prevent="scrollTo($event)"
+                @click="scrollTo($event)"
               ></a>
             </strong>
           </h2>
@@ -118,8 +133,7 @@ module.exports = {
     return {
       loading: true,
       networkError: false,
-      categories: [],
-      scroll: undefined
+      categories: []
     };
   },
   methods: {
@@ -130,12 +144,14 @@ module.exports = {
           this.categories = response.data;
           this.networkError = false;
           this.loading = false;
+          this.scroll();
         })
         .catch((err) => {
           if (err) {
             this.networkError = true;
           }
           this.loading = false;
+          this.scroll();
         });
     },
     createId: function (title) {
@@ -146,13 +162,23 @@ module.exports = {
       id = id.split(')').join('');
       return id;
     },
-    scrollInit: function () {
-      this.scroll = new SmoothScroll('a[href*="#"]', {
-        speed: 2000,
-        easing: 'easeOutCubic',
-        updateURL: true,
-        popstate: true
-      });
+    scroll: function () {
+      setTimeout(function () {
+        let smoothScroll = new scrollToSmooth('a[href*="#"]', {
+          targetAttribute: 'href',
+          durationRelative: 500,
+          durationMin: 500,
+          durationMax: 5000,
+          easing: 'easeOutCubic',
+          offset: 15
+        });
+        smoothScroll.init();
+
+        let hash = window.location.hash;
+        if (hash) {
+          smoothScroll.scrollTo(hash);
+        }
+      }, 350);
     },
     scrollTo: function (evt) {
       let hash;
@@ -160,20 +186,13 @@ module.exports = {
         hash = evt.target.hash;
         history.pushState({}, '', hash);
       }
-      hash = window.location.hash;
-      if (hash) {
-        this.scroll.animateScroll(document.querySelector(hash));
-      }
     }
   },
   created: function () {
     if (!this.categories.length) {
       this.getSiteData();
     }
-    setTimeout(() => {
-      this.scrollInit();
-      this.scrollTo();
-    }, 350);
+
   }
 };
 </script>

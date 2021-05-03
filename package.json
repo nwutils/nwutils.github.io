@@ -6,12 +6,15 @@
   "scripts": {
     "start": "node node_modules/npm-free-server/dist/server.js",
     "lint": "eslint components/**/*.vue",
-    "fix": "npm run lint -- --fix"
+    "fix": "npm run lint -- --fix",
+    "sasslint": "sass-lint -c .sass-lint.yml -v -f table"
   },
   "license": "MIT",
   "devDependencies": {
     "eslint": "^5.9.0",
     "eslint-plugin-vue": "^4.7.1",
-    "npm-free-server": "^1.1.0"
+    "npm-free-server": "^1.1.0",
+    "sass-lint": "^1.13.1",
+    "tjw-sasslint-rules": "^2.1.0"
   }
 }
