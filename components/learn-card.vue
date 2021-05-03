@@ -12,7 +12,7 @@
           :alt="project.title + ' preview image'"
           :src="'_imgs/' + project.image"
           class="learn-card-image"
-        >
+        />
         <svg-icon v-else :icon="project.icon"></svg-icon>
       </a>
     </div>

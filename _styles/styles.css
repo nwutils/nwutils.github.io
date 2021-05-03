@@ -14,8 +14,8 @@
     width: 2.5em;
     height: 2.5em;
     border-radius: 50%;
-    animation-fill-mode: both;
     animation: loading-spinner 1.8s infinite ease-in-out;
+    animation-fill-mode: both;
 }
 .loading-spinner {
     position: relative;
@@ -28,9 +28,9 @@
 }
 .loading-spinner:before,
 .loading-spinner:after {
-   content: '';
-   position: absolute;
-   top: 0px;
+    content: '';
+    position: absolute;
+    top: 0px;
 }
 .loading-spinner:before {
     left: -3.5em;
@@ -128,8 +128,8 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 1200px;
     height: 200px;
+    max-width: 1200px;
     margin: 0px auto;
     padding: 30px 20px 18px 20px;
     font-size: 81px;
@@ -271,8 +271,8 @@ footer {
 }
 .learn-card-image-container {
     display: inline-flex;
-    height: 100%;
     align-items: center;
+    height: 100%;
     border: 1px solid #EAEF55;
     padding: 0px 10px;
     vertical-align: top;
@@ -324,8 +324,8 @@ footer {
     .learn-card-author,
     .learn-card-site {
         width: 100%;
-        overflow: hidden;
         text-overflow: ellipsis;
         white-space: pre;
+        overflow: hidden;
     }
 }
