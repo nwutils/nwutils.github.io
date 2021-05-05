@@ -306,6 +306,11 @@
         "description": "Community supported prebuilt ARM binaries for NW.js. Also documents how to do custom builds for ARM and Linux."
       },
       {
+        "title": "FFmpeg for NW.js",
+        "url": "https://github.com/iteufel/nwjs-ffmpeg-prebuilt",
+        "description": "Community supported prebuilt FFmpeg binaries for NW.js. This allows you to play proprietary codecs in NW.js windows using HTML5."
+      },
+      {
         "title": "find-in-nw",
         "url": "https://github.com/nwutils/find-in-nw",
         "description": "Creates a fully customizable \"Find\" box to search for, and highlight text on the page. Opens via Ctrl+F."
