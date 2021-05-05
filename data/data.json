@@ -301,6 +301,11 @@
     "title": "NW.js Libraries",
     "projects": [
       {
+        "title": "NW.js for ARM",
+        "url": "https://github.com/LeonardLaszlo/nw.js-armv7-binaries",
+        "description": "Community supported prebuilt ARM binaries for NW.js. Also documents how to do custom builds for ARM and Linux."
+      },
+      {
         "title": "find-in-nw",
         "url": "https://github.com/nwutils/find-in-nw",
         "description": "Creates a fully customizable \"Find\" box to search for, and highlight text on the page. Opens via Ctrl+F."
