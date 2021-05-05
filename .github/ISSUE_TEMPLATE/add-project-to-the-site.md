@@ -2,7 +2,7 @@
 name: Add Project to the Site
 about: Request a project be added to the site
 title: "[ADD] Project name"
-labels: enhancement
+labels: request
 assignees: TheJaredWilcurt
 
 ---
