@@ -27,7 +27,7 @@
       <github-corner
         repo="https://github.com/nwutils/nwutils.github.io"
         background="#FFF"
-        octocat="#C43531"
+        octocat="#5F312F"
       ></github-corner>
 
       <network-error

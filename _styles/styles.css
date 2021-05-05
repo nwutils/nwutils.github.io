@@ -58,14 +58,24 @@
 */
 
 body {
-    background-color: #C43531;
-    background-image: url('../_imgs/bg-pattern.png');
+    background-color: #4A2523;
     border: 0px;
     margin: 0px;
     padding: 0px;
     color: #272524;
     font-family: Jost, Trebuchet MS, sans-serif;
     line-height: 1.3;
+}
+body:before {
+    content: '';
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: url('../_imgs/bg-pattern.png');
+    opacity: 0.25;
+    z-index: -1;
 }
 a {
     color: #B13933;
@@ -99,13 +109,7 @@ li {
 header {
     display: flex;
     align-items: center;
-    max-width: 1200px;
     background: #474544;
-    border-width: 0px 10px 0px 10px;
-    border-style: solid;
-    border-color: #A12923;
-    margin: 0px auto;
-    padding: 18px 20px;
     color: #FFF;
 }
 footer {
@@ -115,14 +119,19 @@ footer {
     color: #C8C7C7;
 }
 
+header,
 .container {
     max-width: 1200px;
-    background: #FFF;
     border-width: 0px 10px 0px 10px;
     border-style: solid;
-    border-color: #A12923;
+    border-color: #C43531;
     margin: 0px auto;
-    padding: 18px 20px 85px 20px;
+    padding: 18px 20px;
+}
+
+.container {
+    background: #FFF;
+    padding-bottom: 85px;
 }
 .footer-container {
     display: flex;
@@ -170,8 +179,10 @@ footer {
 }
 .card:before {
     top: -1px;
-    background: url('../_imgs/bg-pattern.png');
-    border-top: 19px solid rgba(0, 0, 0, 0.17);
+    background-color: #C33430;
+    background-image: url('../_imgs/bg-pattern.png');
+    border-top: 19px solid transparent;
+
 }
 .card:after {
     bottom: 0px;
