@@ -47,6 +47,12 @@
         is a runtime environment that simplifies the process of creating Cross-Platform Desktop Apps (XPDA's) by using a simple HTML/CSS/JS/Node.js approach.
         <!-- Ya know, like Electron, except it's actually good at it. -->
         This site catalogs resources for the NW.js community.
+        If you think a resource should be added to this site,
+        <a
+          v-text="'request its addition here'"
+          href="https://github.com/nwutils/nwutils.github.io/issues/new"
+          rel="noopener"
+        ></a>.
       </p>
 
       <template v-for="(category, categoryIndex) in categories">
