@@ -116,6 +116,13 @@
           </ul>
         </div>
       </template>
+      <a
+        v-text="'&#11014;&#65039;'"
+        class="go-to-top"
+        href="#"
+        title="Scroll to top"
+        @click="scrollTo($event)"
+      ></a>
     </div>
     <footer>
       <div class="footer-container">
@@ -187,10 +194,9 @@ module.exports = {
       }, 350);
     },
     scrollTo: function (evt) {
-      let hash;
-      if (evt && evt.target && evt.target.hash) {
-        hash = evt.target.hash;
-        history.pushState({}, '', hash);
+      let hash = evt && evt.target && evt.target.hash;
+      if (hash !== window.location.hash) {
+        history.pushState({}, '', (hash || ' '));
       }
     }
   },

@@ -57,6 +57,21 @@
 #474544 dark gray
 */
 
+html,
+body,
+#app,
+.container {
+    height: 100%;
+}
+html,
+body,
+#app,
+header,
+.container,
+footer {
+    width: 100%;
+}
+
 body {
     background-color: #4A2523;
     border: 0px;
@@ -91,6 +106,11 @@ h2 {
     margin: 85px auto 5px auto;
     text-align: center;
 }
+h2:before,
+h2:after {
+    content: '#';
+    color: transparent;
+}
 h2 a {
     text-decoration: none;
 }
@@ -98,7 +118,7 @@ h2 a:hover {
     text-decoration: underline;
 }
 h2:hover:before {
-    content: '#';
+    color: #272524;
 }
 ul {
     margin-bottom: 16px;
@@ -117,6 +137,20 @@ footer {
     min-height: 200px;
     background: #474544;
     color: #C8C7C7;
+}
+
+.go-to-top {
+    position: fixed;
+    right: 20px;
+    bottom: 8px;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 header,
@@ -259,7 +293,7 @@ header,
 
 .connect-card {
     display: inline-block;
-    margin: 0px 2% 16px;
+    margin: 20px 17px 15px;
 }
 .connect-card .svg-icon {
     width: 70px;
