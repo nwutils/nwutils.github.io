@@ -334,6 +334,11 @@
         "title": "Modules-ABI",
         "url": "https://github.com/Armaldio/modules-abi",
         "description": "Node.js and NW.js ABI version mapping dependency"
+      },
+      {
+        "title": "node-webkit-window-manager",
+        "url": "https://github.com/procedurallygenerated/node-webkit-window-manager",
+        "description": "A library to help open new windows, send data to different windows, and close them all at once."
       }
     ]
   },
