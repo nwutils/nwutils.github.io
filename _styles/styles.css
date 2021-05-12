@@ -179,6 +179,29 @@ header,
     font-weight: 700;
 }
 
+.alert {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #E61F19;
+    border-width: 7px 2px 4px;
+    border-style: solid;
+    border-color: #000;
+    padding: 17px;
+    color: #000;
+}
+.alert-close {
+    background: #4A2523;
+    border: 0px;
+    padding: 6px 12px;
+    color: #FFF;
+    font-size: 19px;
+    font-weight: 900;
+}
+.alert-close:hover {
+    background: #5A3533;
+}
+
 .logo {
     width: 100%;
     min-width: 56px;

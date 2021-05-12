@@ -1,11 +1,22 @@
 <!DOCTYPE html>
 <html lang="en" itemscope itemtype="https://schema.org/Article">
   <head>
-    <!-- Global                                                                                             -->
+    <!-- Before CSS                                                                                         -->
     <meta charset="utf-8"                                                                                    />
     <meta http-equiv="X-UA-Compatible"           content="IE=edge"                                           />
     <meta name="viewport"                        content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title>NW.js Utilities</title>
+
+    <!-- Load Cache-Busted CSS                                                                              -->
+    <script>
+      window.cacheBust = (new Date()).getTime();
+      let link = document.createElement('link');
+      link.setAttribute('rel', 'stylesheet');
+      link.setAttribute('href', '_styles/styles.css?t=' + window.cacheBust);
+      document.head.appendChild(link);
+    </script>
+
+    <!-- Global                                                                                             -->
     <meta name="description"                     content="Cross-platform libraries, boilerplates, and tools for desktop apps and Node.js." />
     <meta name="keywords"                        content="NW.js Utilities, nw.js, nw-utils, nw utils, node-webkit, cross-platform desktop apps, XPDA, node.js, javascript, libraries, boilerplates, tools, helpers, frameworks" />
     <meta http-equiv="Expires"                   content="0"                                                 />
@@ -62,17 +73,16 @@
     <link rel="apple-touch-icon"             href="/_imgs/meta/apl-144.png" type="image/png" sizes="144x144" />
     <link rel="apple-touch-icon-precomposed" href="/_imgs/meta/apl-144.png" type="image/png" sizes="144x144" />
     <link rel="apple-touch-startup-image"    href="/_imgs/meta/apl-str.png" type="image/png"                 />
-    <!-- Styles/Scripts                                                                                     -->
-    <style>
-      [v-cloak] {
-        display: none;
-      }
-    </style>
-    <link rel="stylesheet" href="_styles/styles.css" />
   </head>
   <body>
+    <header>
+      <img class="logo" src="/_imgs/meta/fluid.png" alt="NW Utils logo" />
+      <h1>
+        NW.js Utilities
+      </h1>
+    </header>
+
     <div id="app">
-      <header></header>
       <div class="container">
         <noscript>
           This site requires JavaScript.
@@ -82,12 +92,11 @@
     </div>
 
     <!-- Scripts -->
-    <script type="text/javascript" src="https://polyfill.io/v3/polyfill.min.js?features=Set,String.prototype.startsWith,Promise,Promise.prototype.finally"></script>
-    <script type="text/javascript" src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/http-vue-loader@1.4.2/src/httpVueLoader.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/scrolltosmooth@3.0.0/dist/scrolltosmooth.pkgd.min.js"></script>
-    <script type="text/javascript" src="app.js"></script>
+    <script defer type="text/javascript" src="https://cdn.jsdelivr.net/npm/axios@0.21.1/dist/axios.min.js"></script>
+    <script defer type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+    <script defer type="text/javascript" src="https://cdn.jsdelivr.net/npm/http-vue-loader@1.4.2/src/httpVueLoader.js"></script>
+    <script defer type="text/javascript" src="https://cdn.jsdelivr.net/npm/scrolltosmooth@3.0.0/dist/scrolltosmooth.pkgd.min.js"></script>
+    <script defer type="text/javascript" src="app.js"></script>
     <link rel="stylesheet" href="_styles/fonts.css" />
   </body>
 </html>

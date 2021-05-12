@@ -1,13 +1,12 @@
 <template>
-  <div
-    class="alert alert-danger alert-dismissible"
-    role="alert"
-  >
-    There was an error on the server during a request for data.
-    <strong>Please reload the page.</strong>
+  <div class="alert" role="alert">
+    <span>
+      There was an error on the server during a request for data.
+      <strong>Please reload the page.</strong>
+    </span>
     <button
       type="button"
-      class="close"
+      class="alert-close"
       data-dismiss="alert"
       aria-label="Close"
       @click="$emit('dismissed')"

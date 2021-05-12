@@ -78,9 +78,9 @@
 module.exports = {
   name: 'boilerplate-card',
   components: {
-    'list-boolean': httpVueLoader('components/list-boolean.vue'),
-    'progress-pill': httpVueLoader('components/progress-pill.vue'),
-    'svg-icon': httpVueLoader('components/svg-icon.vue')
+    'list-boolean': httpVueLoader('components/list-boolean.vue?t=' + window.cacheBust),
+    'progress-pill': httpVueLoader('components/progress-pill.vue?t=' + window.cacheBust),
+    'svg-icon': httpVueLoader('components/svg-icon.vue?t=' + window.cacheBust)
   },
   props: {
     project: {

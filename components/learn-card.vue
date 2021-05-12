@@ -35,7 +35,7 @@
 module.exports = {
   name: 'learn-card',
   components: {
-    'svg-icon': httpVueLoader('components/svg-icon.vue')
+    'svg-icon': httpVueLoader('components/svg-icon.vue?t=' + window.cacheBust)
   },
   props: {
     project: {

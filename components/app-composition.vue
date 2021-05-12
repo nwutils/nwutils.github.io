@@ -1,11 +1,5 @@
 <template>
   <div>
-    <header>
-      <img class="logo" src="/_imgs/meta/fluid.png" alt="NW Utils logo" />
-      <h1>
-        NW.js Utilities
-      </h1>
-    </header>
     <div class="container">
       <nav>
         <strong>Navigation:</strong>
@@ -136,11 +130,11 @@
 module.exports = {
   name: 'app-composition',
   components: {
-    'boilerplate-card': httpVueLoader('components/boilerplate-card.vue'),
-    'connect-card': httpVueLoader('components/connect-card.vue'),
-    'github-corner': httpVueLoader('components/github-corner.vue'),
-    'learn-card': httpVueLoader('components/learn-card.vue'),
-    'network-error': httpVueLoader('components/network-error.vue')
+    'boilerplate-card': httpVueLoader('components/boilerplate-card.vue?t=' + window.cacheBust),
+    'connect-card': httpVueLoader('components/connect-card.vue?t=' + window.cacheBust),
+    'github-corner': httpVueLoader('components/github-corner.vue?t=' + window.cacheBust),
+    'learn-card': httpVueLoader('components/learn-card.vue?t=' + window.cacheBust),
+    'network-error': httpVueLoader('components/network-error.vue?t=' + window.cacheBust)
   },
   data: function () {
     return {
@@ -152,7 +146,7 @@ module.exports = {
   methods: {
     getSiteData: function () {
       this.loading = true;
-      axios.get('/data/data.json')
+      axios.get('/data/data.json?t=' + window.cacheBust)
         .then((response) => {
           this.categories = response.data;
           this.networkError = false;
