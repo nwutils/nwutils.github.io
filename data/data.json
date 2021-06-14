@@ -26,7 +26,7 @@
       {
         "icon": "Twitter",
         "title": "@nw_js",
-        "url": "https://twitter.com/hashtag/nwjs"
+        "url": "https://twitter.com/nw_js"
       },
       {
         "icon": "Twitter",
@@ -339,6 +339,16 @@
         "title": "node-webkit-window-manager",
         "url": "https://github.com/procedurallygenerated/node-webkit-window-manager",
         "description": "A library to help open new windows, send data to different windows, and close them all at once."
+      },
+      {
+        "title": "Vue DevTools for NW.js",
+        "url": "https://github.com/DimPaDev/nw-vue-devtools-prebuilt",
+        "description": "Downloads the latest release of Vue-DevTools from the Chome WebStore. Unzips and modifies it to be compatible with the Chromium Dev Tools built in to NW.js."
+      },
+      {
+        "title": "Vue DevTools (Beta) for NW.js",
+        "url": "https://github.com/nwutils/nw-vue-devtools-beta-prebuilt",
+        "description": "Downloads the latest release of the beta version of Vue-DevTools from the Chome WebStore. Unzips and modifies it to be compatible with the Chromium Dev Tools built in to NW.js."
       }
     ]
   },
