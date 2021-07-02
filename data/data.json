@@ -294,6 +294,11 @@
         "title": "create-desktop-shortcuts",
         "url": "https://github.com/nwutils/create-desktop-shortcuts",
         "description": "Easy API to create a desktop shortcut icon to open an app, file, or URL. Customize the icon and location. Cross-platform."
+      },
+      {
+        "title": "node-notifier",
+        "url": "https://github.com/mikaelbr/node-notifier",
+        "description": "Native OS desktop notifications for Windows 8/10, Linux, and OSX."
       }
     ]
   },
