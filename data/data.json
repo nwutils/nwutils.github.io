@@ -414,6 +414,11 @@
         "title": "faux-notifications",
         "url": "https://github.com/nwutils/faux-notifications",
         "description": "Creating a transparent, custom styled, positioned and sized to look like a desktop notification"
+      },
+      {
+        "title": "nw-screen-capture",
+        "url": "https://github.com/nwutils/nw-screen-capture",
+        "description": "A premade UI with some basic options (like light/dark mode, and maybe a customizable color) for selecting a window/screen to share via nw.Screen.DesktopCaptureMonitor"
       }
     ]
   }
