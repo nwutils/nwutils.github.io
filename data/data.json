@@ -53,7 +53,7 @@
       },
       {
         "icon": "YouTube",
-        "title": "NW.js, Vue, Vuetify",
+        "title": "NW.js, Vue, Vuetify (6.5 hour video series)",
         "author": "Ackzell",
         "url": "https://www.youtube.com/playlist?list=PLmJs3lfUmCdT9MyG60Oo6HM7xAn79vwZ0",
         "site": "YouTube"
@@ -94,6 +94,14 @@
         "author": "The Jared Wilcurt",
         "url": "https://dev.to/thejaredwilcurt/angular-cli-and-nwjs-for-development-49gl",
         "site": "dev.to"
+      },
+      {
+        "icon": "",
+        "image": "ps-scripting.png",
+        "title": "JavaScript Native Applications for Photoshop (9hr video series)",
+        "author": "Davide Barranca",
+        "url": "https://www.ps-scripting.com/js-native-apps-for-photoshop.html",
+        "site": "ps-scripting.com"
       }
     ]
   },
