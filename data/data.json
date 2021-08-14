@@ -102,6 +102,13 @@
         "author": "Davide Barranca",
         "url": "https://www.ps-scripting.com/js-native-apps-for-photoshop.html",
         "site": "ps-scripting.com"
+      },
+      {
+        "icon": "dev.to",
+        "title": "Guide to NW.js versions",
+        "author": "The Jared Wilcurt",
+        "url": "https://dev.to/thejaredwilcurt/guide-to-nw-js-versions-5d38",
+        "site": "dev.to"
       }
     ]
   },
