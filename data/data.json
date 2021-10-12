@@ -434,6 +434,11 @@
         "title": "nw-screen-capture",
         "url": "https://github.com/nwutils/nw-screen-capture",
         "description": "A premade UI with some basic options (like light/dark mode, and maybe a customizable color) for selecting a window/screen to share via nw.Screen.DesktopCaptureMonitor"
+      },
+      {
+        "title": "NW.js Global Installer",
+        "url": "https://github.com/nwutils/nw-global-installer",
+        "description": "A tool to create Installer executables for your app that would download the required NW.js version to a shared location, so any other NW.js app using the same NW.js version could skip the download of the large NW.js files"
       }
     ]
   }
