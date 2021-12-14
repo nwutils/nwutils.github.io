@@ -399,6 +399,11 @@
         "title": "nw-utils-settings",
         "url": "https://github.com/nwutils/nw-utils-settings",
         "description": ""
+      },
+      {
+        "title": "nw-api-sanity-check",
+        "url": "https://github.com/nwutils/nw-api-sanity-check",
+        "description": "smoke test for NW.js API"
       }
     ]
   },
