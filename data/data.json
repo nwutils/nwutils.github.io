@@ -311,6 +311,11 @@
         "description": "Easy API to create a desktop shortcut icon to open an app, file, or URL. Customize the icon and location. Cross-platform."
       },
       {
+        "title": "get-windows-shortcut-properties",
+        "url": "https://github.com/nwutils/get-windows-shortcut-properties",
+        "description": "A Node.js library to get the properties of a Windows .lnk or .url shortcut file as a JavaScript object."
+      },
+      {
         "title": "node-notifier",
         "url": "https://github.com/mikaelbr/node-notifier",
         "description": "Native OS desktop notifications for Windows 8/10, Linux, and OSX."
