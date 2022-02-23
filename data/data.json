@@ -441,6 +441,11 @@
         "description": "Creating a transparent, custom styled, positioned and sized to look like a desktop notification"
       },
       {
+        "title": "nw-rich-tray-example",
+        "url": "https://github.com/nwutils/nw-rich-tray-example",
+        "description": "An example of a tray application that creates a frameless floating window next to the tray icon when clicked"
+      },
+      {
         "title": "nw-screen-capture",
         "url": "https://github.com/nwutils/nw-screen-capture",
         "description": "A premade UI with some basic options (like light/dark mode, and maybe a customizable color) for selecting a window/screen to share via nw.Screen.DesktopCaptureMonitor"
