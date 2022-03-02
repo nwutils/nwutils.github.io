@@ -109,6 +109,14 @@
         "author": "The Jared Wilcurt",
         "url": "https://dev.to/thejaredwilcurt/guide-to-nw-js-versions-5d38",
         "site": "dev.to"
+      },
+      {
+        "icon": "Vue.js",
+        "title": "XPDAs, NW.js, & Vue.js",
+        "author": "Views on Vue Podcast",
+        "url": "https://devchat.tv/views-on-vue/developing-desktop-apps-with-vue-vue-157",
+        "site": "devchat.tv",
+        "description": "The Jared Wilcurt leads a discussion on different tools for creating XPDAs. Also covers NW-Vue-CLI-Example boilerplate for creating desktop apps with Vue."
       }
     ]
   },
