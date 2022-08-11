@@ -385,7 +385,7 @@
       },
       {
         "title": "nw-dev",
-        "url": "https://github.com/1j01/nw-dev",
+        "url": "https://github.com/nwutils/nw-dev",
         "description": "Adds in several convient features for development when working in NW.js"
       },
       {
@@ -400,7 +400,7 @@
       },
       {
         "title": "nwjs-packager",
-        "url": "https://github.com/charlielee/nwjs-packager",
+        "url": "https://github.com/nwutils/nwjs-packager",
         "description": "A simple tool to package or archive your project for sharing"
       },
       {
