@@ -354,11 +354,6 @@
         "description": "A library to create a splash screen for your app. Then hide the splash screen and show your app once loading completes. Each window runs in it's own thread so animations play smoothly on the splash screen."
       },
       {
-        "title": "nwdc",
-        "url": "https://github.com/nwutils/nwdc",
-        "description": "NW.js Debug Console for Windows"
-      },
-      {
         "title": "nw-programmatic-folder-select",
         "url": "https://github.com/nwutils/nw-programmatic-folder-select",
         "description": "Let's you programmatically open a folder selection dialog and runs a callback function with the user's choice."
@@ -377,6 +372,21 @@
         "title": "node-webkit-window-manager",
         "url": "https://github.com/procedurallygenerated/node-webkit-window-manager",
         "description": "A library to help open new windows, send data to different windows, and close them all at once."
+      }
+    ]
+  },
+  {
+    "title": "Tooling",
+    "projects": [
+      {
+        "title": "nwdc",
+        "url": "https://github.com/nwutils/nwdc",
+        "description": "NW.js Debug Console for Windows"
+      },
+      {
+        "title": "vscode-nwjs-debug",
+        "url": "https://github.com/karikera/vscode-nwjs-debug",
+        "description": "Adds NW.js as a debugger option in VSCode"
       },
       {
         "title": "Vue DevTools for NW.js",
