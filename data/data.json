@@ -379,6 +379,16 @@
     "title": "Tooling",
     "projects": [
       {
+        "title": "nw-builder",
+        "url": "https://github.com/nwutils/nw-builder",
+        "description": "An automated build tool for NW.js applications, actively maintained by the community"
+      },
+      {
+        "title": "nw-dev",
+        "url": "https://github.com/1j01/nw-dev",
+        "description": "Adds in several convient features for development when working in NW.js"
+      },
+      {
         "title": "nwdc",
         "url": "https://github.com/nwutils/nwdc",
         "description": "NW.js Debug Console for Windows"
@@ -387,6 +397,11 @@
         "title": "vscode-nwjs-debug",
         "url": "https://github.com/karikera/vscode-nwjs-debug",
         "description": "Adds NW.js as a debugger option in VSCode"
+      },
+      {
+        "title": "nwjs-packager",
+        "url": "https://github.com/charlielee/nwjs-packager",
+        "description": "A simple tool to package or archive your project for sharing"
       },
       {
         "title": "Vue DevTools for NW.js",
