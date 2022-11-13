@@ -277,6 +277,37 @@
             "e2e": false
           }
         }
+      },
+      {
+        "title": "NW.js TS Solid Starter",
+        "url": "https://github.com/davidmartinez10/nwts-solid-starter",
+        "description": "NW.js + Solid.js + TypeScript boilerplate",
+        "primaryTechnologies": [
+          "NW.js",
+          "Solid.js",
+          "TypeScript",
+          "NW.ts-Tools",
+          "Vite"
+        ],
+        "quality": {
+          "documentation": {
+            "runningLocally": true,
+            "buildingDesktop": true,
+            "buildingWeb": true,
+            "screenshot": false
+          },
+          "builds": {
+            "automatedDesktop": true,
+            "automatedWeb": true
+          },
+          "semanticVersioning": false,
+          "releaseNotes": false,
+          "linting": false,
+          "testing": {
+            "unit": false,
+            "e2e": false
+          }
+        }
       }
     ]
   },
@@ -412,6 +443,11 @@
         "title": "Vue DevTools (Beta) for NW.js",
         "url": "https://github.com/nwutils/nw-vue-devtools-beta-prebuilt",
         "description": "Downloads the latest release of the beta version of Vue-DevTools from the Chome WebStore. Unzips and modifies it to be compatible with the Chromium Dev Tools built in to NW.js."
+      },
+      {
+        "title": "NW.ts Tools",
+        "url": "https://github.com/davidmartinez10/nwts-tools",
+        "description": "TypeScript tools for running, patching and packaging NW.js apps"
       }
     ]
   },
