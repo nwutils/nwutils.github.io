@@ -192,6 +192,36 @@
         }
       },
       {
+        "title": "NW.js Create-React-App Boilerplate",
+        "url": "https://github.com/nwutils/nw-react-example",
+        "description": "A basic boilerplate for building a desktop application using NW.js and React. Includes support for automated builds using nw-builder.",
+        "primaryTechnologies": [
+          "React",
+          "React-DevTools",
+          "NW.js",
+          "ESLint"
+        ],
+        "quality": {
+          "documentation": {
+            "runningLocally": true,
+            "buildingDesktop": true,
+            "buildingWeb": false,
+            "screenshot": false
+          },
+          "builds": {
+            "automatedDesktop": true,
+            "automatedWeb": true
+          },
+          "semanticVersioning": true,
+          "releaseNotes": false,
+          "linting": true,
+          "testing": {
+            "unit": false,
+            "e2e": false
+          }
+        }
+      },
+      {
         "title": "NW.js jQuery Boilerplate",
         "url": "https://github.com/nwutils/nw-jquery-example",
         "description": "Simple example of using jQuery in an NW.js app.",
