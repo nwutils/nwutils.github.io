@@ -222,23 +222,26 @@
         }
       },
       {
-        "title": "NW.js jQuery Boilerplate",
-        "url": "https://github.com/nwutils/nw-jquery-example",
-        "description": "Simple example of using jQuery in an NW.js app.",
+        "title": "NW.js TS Solid Starter",
+        "url": "https://github.com/davidmartinez10/nwts-solid-starter",
+        "description": "NW.js + Solid.js + TypeScript boilerplate",
         "primaryTechnologies": [
-          "jQuery",
-          "NW.js"
+          "NW.js",
+          "Solid.js",
+          "TypeScript",
+          "NW.ts-Tools",
+          "Vite"
         ],
         "quality": {
           "documentation": {
             "runningLocally": true,
-            "buildingDesktop": false,
-            "buildingWeb": false,
+            "buildingDesktop": true,
+            "buildingWeb": true,
             "screenshot": false
           },
           "builds": {
-            "automatedDesktop": false,
-            "automatedWeb": false
+            "automatedDesktop": true,
+            "automatedWeb": true
           },
           "semanticVersioning": false,
           "releaseNotes": false,
@@ -309,26 +312,23 @@
         }
       },
       {
-        "title": "NW.js TS Solid Starter",
-        "url": "https://github.com/davidmartinez10/nwts-solid-starter",
-        "description": "NW.js + Solid.js + TypeScript boilerplate",
+        "title": "NW.js jQuery Boilerplate",
+        "url": "https://github.com/nwutils/nw-jquery-example",
+        "description": "Simple example of using jQuery in an NW.js app.",
         "primaryTechnologies": [
-          "NW.js",
-          "Solid.js",
-          "TypeScript",
-          "NW.ts-Tools",
-          "Vite"
+          "jQuery",
+          "NW.js"
         ],
         "quality": {
           "documentation": {
             "runningLocally": true,
-            "buildingDesktop": true,
-            "buildingWeb": true,
+            "buildingDesktop": false,
+            "buildingWeb": false,
             "screenshot": false
           },
           "builds": {
-            "automatedDesktop": true,
-            "automatedWeb": true
+            "automatedDesktop": false,
+            "automatedWeb": false
           },
           "semanticVersioning": false,
           "releaseNotes": false,
