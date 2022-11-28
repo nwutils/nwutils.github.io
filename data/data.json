@@ -125,17 +125,16 @@
     "component": "boilerplate-card",
     "projects": [
       {
-        "title": "NW.js Vue-CLI Boilerplate",
-        "url": "https://github.com/nwutils/nw-vue-cli-example",
-        "description": "A fully featured boilerplate, complete with Vue-CLI integration and automated builds for web and desktop. Branch for starting with a splash screen as well.",
+        "title": "NW.js + Vue 3 Boilerplate",
+        "url": "https://github.com/nwutils/nw-vue3-boilerplate",
+        "description": "A fully featured boilerplate, complete with Vite, Vitest, & Pinia integration and automated builds for web and desktop. Comes with Vue DevTools built in.",
         "primaryTechnologies": [
           "Vue.js",
-          "Vue-CLI",
+          "Vite",
           "NW.js",
           "Vue-DevTools",
-          "Babel",
-          "Webpack",
-          "Jest",
+          "Pinia",
+          "Vitest",
           "ESLint"
         ],
         "quality": {
