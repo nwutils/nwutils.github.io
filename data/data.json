@@ -394,9 +394,14 @@
     "title": "NW.js Libraries",
     "projects": [
       {
-        "title": "NW.js for ARM",
+        "title": "NW.js for ARMv7 & ARMv8",
         "url": "https://github.com/LeonardLaszlo/nw.js-armv7-binaries",
         "description": "Community supported prebuilt ARM binaries for NW.js. Also documents how to do custom builds for ARM and Linux."
+      },
+      {
+        "title": "NW.js for ARMv6",
+        "url": "https://github.com/jalbam/nwjs_rpi",
+        "description": "NW.js port for Raspberry Pi. Compiled binaries for the ARMv6 used in Raspberry Pi (2 & 3)."
       },
       {
         "title": "FFmpeg for NW.js",
