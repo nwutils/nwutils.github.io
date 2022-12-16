@@ -94,6 +94,7 @@
                 <strong>{{ project.site }}</strong> -
               </template>
               <a
+                v-if="project.title"
                 :href="project.url"
                 target="_blank"
                 rel="noopener"
@@ -101,7 +102,8 @@
                 {{ project.title }}
               </a>
               <template v-if="project.description">
-                - {{ project.description }}
+                <template v-if="project.title">-</template>
+                {{ project.description }}
               </template>
               <template v-if="project.author">
                 - by {{ project.author }}

@@ -496,6 +496,29 @@
     ]
   },
   {
+    "title": "Building NW.js from source",
+    "projects": [
+      {
+        "description": "If you need to customize the source code of Chromium, Node.js or NW.js, this section provides resources for doing your own builds. If you don't need to modify these, you're better off just using the official stable builds as provided."
+      },
+      {
+        "title": "NW.js Official Docs",
+        "url": "https://nwjs.readthedocs.io/en/latest/For%20Developers/Building%20NW.js",
+        "description": "The official docs are a good starting point."
+      },
+      {
+        "title": "Buildbot logs",
+        "url": "http://buildbot-master.nwjs.io:8010/builders",
+        "description": "The most recent official builds for NW.js are logged here. Many builders have found these logs helpful."
+      },
+      {
+        "title": "Shikhak's OSX build guide",
+        "url": "https://github.com/shikhak/nwjs-macos",
+        "description": "This is a guide for setting up your dev environment for OSX, building, and verifying your custom build."
+      }
+    ]
+  },
+  {
     "title": "WIP",
     "projects": [
       {
