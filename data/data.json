@@ -117,6 +117,13 @@
         "url": "https://viewsonvue.com/175",
         "site": "devchat.tv",
         "description": "The Jared Wilcurt leads a discussion on different tools for creating XPDAs. Also covers NW-Vue-CLI-Example boilerplate for creating desktop apps with Vue."
+      },
+      {
+        "icon": "GitHub",
+        "title": "Order of JS execution in NW.js",
+        "author": "The Jared Wilcurt",
+        "url": "https://github.com/nwutils/bg-script-example",
+        "site": "GitHub"
       }
     ]
   },
