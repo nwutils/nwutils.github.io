@@ -522,6 +522,11 @@
         "title": "Shikhak's OSX build guide",
         "url": "https://github.com/shikhak/nwjs-macos",
         "description": "This is a guide for setting up your dev environment for OSX, building, and verifying your custom build."
+      },
+      {
+        "title": "Ayush's Linux build guide",
+        "url": "https://gist.github.com/tharatau/5e5932dccf595ddfdc34642244230f15",
+        "description": "This is a guide for setting up your dev environment and building NW.js on Ubuntu."
       }
     ]
   },
