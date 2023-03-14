@@ -559,6 +559,11 @@
     "title": "Ideas bucket (Not started)",
     "projects": [
       {
+        "title": "nw-splasher-auto-update",
+        "url": "https://github.com/nwutils/nw-splasher-auto-update",
+        "description": "A tool to show a splash screen while checking for updates, downloading, extracting the update and opening it in a new window"
+      },
+      {
         "title": "nw-window-manager",
         "url": "https://github.com/nwutils/nw-window-manager",
         "description": "A library to let you easily control all opened windows (hide/show/close/blur/focus remotely)."
