@@ -66,7 +66,8 @@ module.exports = {
         'Angular-CLI': paths['Angular'],
         'React-DevTools': paths['React'],
         'Vue-CLI': paths['Vue.js'],
-        'Vue-DevTools': paths['Vue.js']
+        'Vue-DevTools': paths['Vue.js'],
+        'Vue-Router': paths['Vue.js']
       };
     },
     iconColor: function () {
