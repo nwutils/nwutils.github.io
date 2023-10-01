@@ -621,6 +621,11 @@
         "title": "nw-build-tools",
         "url": "https://github.com/nwutils/nw-build-tools",
         "description": "NW.js local development"
+      },
+      {
+        "title": "nw-cli",
+        "url": "https://github.com/ayushmanchhabra/nw-cli",
+        "description": "Command-line interface for building NW.js applications"
       }
     ]
   },
