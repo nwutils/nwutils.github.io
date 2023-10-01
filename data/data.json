@@ -345,6 +345,34 @@
             "e2e": false
           }
         }
+      },
+      {
+        "title": "NW.js Next.js Boilerplate",
+        "url": "https://github.com/nwutils/nw-next-example",
+        "description": "An example of Next.js running in NW.js",
+        "primaryTechnologies": [
+          "Next.js",
+          "NW.js"
+        ],
+        "quality": {
+          "documentation": {
+            "runningLocally": true,
+            "buildingDesktop": true,
+            "buildingWeb": true,
+            "screenshot": false
+          },
+          "builds": {
+            "automatedDesktop": true,
+            "automatedWeb": true
+          },
+          "semanticVersioning": false,
+          "releaseNotes": false,
+          "linting": false,
+          "testing": {
+            "unit": false,
+            "e2e": false
+          }
+        }
       }
     ]
   },
@@ -500,7 +528,7 @@
         "title": "Web2Executable",
         "url": "https://github.com/nwutils/Web2Executable",
         "description": "Generate NW.js apps using Python"
-      },
+      }
     ]
   },
   {
