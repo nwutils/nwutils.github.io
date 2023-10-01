@@ -483,6 +483,11 @@
         "title": "node-webkit-window-manager",
         "url": "https://github.com/procedurallygenerated/node-webkit-window-manager",
         "description": "A library to help open new windows, send data to different windows, and close them all at once."
+      },
+      {
+        "title": "electron-to-nwjs",
+        "url": "https://github.com/nwutils/electron-to-nwjsr",
+        "description": "Build an Electron app as a NW.js app"
       }
     ]
   },
