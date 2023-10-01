@@ -528,6 +528,11 @@
         "title": "Web2Executable",
         "url": "https://github.com/nwutils/Web2Executable",
         "description": "Generate NW.js apps using Python"
+      },
+      {
+        "title": "nwjs-shell-builder",
+        "url": "https://github.com/nwutils/nwjs-shell-builder",
+        "description": "NW.js shell script builder and packager scripts"
       }
     ]
   },
