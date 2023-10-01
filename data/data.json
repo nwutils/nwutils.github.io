@@ -408,6 +408,11 @@
         "title": "nw-sample-apps",
         "url": "https://github.com/nwutils/nw-sample-apps",
         "description": "A bunch of miscellaneous NW.js application example"
+      },
+      {
+        "title": "bg-script-example",
+        "url": "https://github.com/nwutils/bg-script-example",
+        "description": "A demo of how JavaScript runs in NW.js"
       }
     ]
   },
