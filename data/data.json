@@ -555,9 +555,9 @@
         "description": ""
       },
       {
-        "title": "nw-api-sanity-check",
-        "url": "https://github.com/nwutils/nw-api-sanity-check",
-        "description": "smoke test for NW.js API"
+        "title": "nw-test-suite",
+        "url": "https://github.com/nwutils/nw-test-suite",
+        "description": "Smoke test for NW.js API"
       }
     ]
   },
