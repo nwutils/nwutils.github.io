@@ -375,6 +375,11 @@
         "title": "window-communication-example",
         "url": "https://github.com/nwutils/window-communication-example",
         "description": "Example of communication between windows in NW.js."
+      },
+      {
+        "title": "nw-sample-apps",
+        "url": "https://github.com/nwutils/nw-sample-apps",
+        "description": "A bunch of miscellaneous NW.js application example"
       }
     ]
   },
