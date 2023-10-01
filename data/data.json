@@ -495,7 +495,12 @@
         "title": "NW.ts Tools",
         "url": "https://github.com/davidmartinez10/nwts-tools",
         "description": "TypeScript tools for running, patching and packaging NW.js apps"
-      }
+      },
+      {
+        "title": "Web2Executable",
+        "url": "https://github.com/nwutils/Web2Executable",
+        "description": "Generate NW.js apps using Python"
+      },
     ]
   },
   {
