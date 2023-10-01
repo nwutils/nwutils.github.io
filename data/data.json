@@ -538,6 +538,11 @@
         "title": "Ayush's Linux build guide",
         "url": "https://gist.github.com/ayushmanchhabra/5e5932dccf595ddfdc34642244230f15",
         "description": "This is a guide for setting up your dev environment and building NW.js on Ubuntu."
+      },
+      {
+        "title": "nw-updater",
+        "url": "https://github.com/nwutils/nw-updater",
+        "description": "Update NW.js applications"
       }
     ]
   },
