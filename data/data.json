@@ -548,6 +548,11 @@
         "title": "nwjs-shell-builder",
         "url": "https://github.com/nwutils/nwjs-shell-builder",
         "description": "NW.js shell script builder and packager scripts"
+      },
+      {
+        "title": "nw-updater",
+        "url": "https://github.com/nwutils/nw-updater",
+        "description": "Update NW.js applications"
       }
     ]
   },
@@ -588,9 +593,9 @@
         "description": "This is a guide for setting up your dev environment and building NW.js on Ubuntu."
       },
       {
-        "title": "nw-updater",
-        "url": "https://github.com/nwutils/nw-updater",
-        "description": "Update NW.js applications"
+        "title": "nw-patches",
+        "url": "https://github.com/nwutils/nw-patches",
+        "description": "Understand how NW.js changes upstream behaviour"
       }
     ]
   },
