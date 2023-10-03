@@ -345,6 +345,34 @@
             "e2e": false
           }
         }
+      },
+      {
+        "title": "NW.js Next.js Boilerplate",
+        "url": "https://github.com/nwutils/nw-next-example",
+        "description": "An example of Next.js running in NW.js",
+        "primaryTechnologies": [
+          "Next.js",
+          "NW.js"
+        ],
+        "quality": {
+          "documentation": {
+            "runningLocally": true,
+            "buildingDesktop": true,
+            "buildingWeb": true,
+            "screenshot": false
+          },
+          "builds": {
+            "automatedDesktop": true,
+            "automatedWeb": true
+          },
+          "semanticVersioning": false,
+          "releaseNotes": false,
+          "linting": false,
+          "testing": {
+            "unit": false,
+            "e2e": false
+          }
+        }
       }
     ]
   },
@@ -375,6 +403,21 @@
         "title": "window-communication-example",
         "url": "https://github.com/nwutils/window-communication-example",
         "description": "Example of communication between windows in NW.js."
+      },
+      {
+        "title": "nw-sample-apps",
+        "url": "https://github.com/nwutils/nw-sample-apps",
+        "description": "A bunch of miscellaneous NW.js application example"
+      },
+      {
+        "title": "bg-script-example",
+        "url": "https://github.com/nwutils/bg-script-example",
+        "description": "A demo of how JavaScript runs in NW.js"
+      },
+      {
+        "title": "nwjs-print-server",
+        "url": "https://github.com/nwutils/nwjs-print-server",
+        "description": "Websocket server to interface a website with a printer"
       }
     ]
   },
@@ -445,6 +488,11 @@
         "title": "node-webkit-window-manager",
         "url": "https://github.com/procedurallygenerated/node-webkit-window-manager",
         "description": "A library to help open new windows, send data to different windows, and close them all at once."
+      },
+      {
+        "title": "electron-to-nwjs",
+        "url": "https://github.com/nwutils/electron-to-nwjsr",
+        "description": "Build an Electron app as a NW.js app"
       }
     ]
   },
@@ -490,6 +538,21 @@
         "title": "NW.ts Tools",
         "url": "https://github.com/davidmartinez10/nwts-tools",
         "description": "TypeScript tools for running, patching and packaging NW.js apps"
+      },
+      {
+        "title": "Web2Executable",
+        "url": "https://github.com/nwutils/Web2Executable",
+        "description": "Generate NW.js apps using Python"
+      },
+      {
+        "title": "nwjs-shell-builder",
+        "url": "https://github.com/nwutils/nwjs-shell-builder",
+        "description": "NW.js shell script builder and packager scripts"
+      },
+      {
+        "title": "nw-updater",
+        "url": "https://github.com/nwutils/nw-updater",
+        "description": "Update NW.js applications"
       }
     ]
   },
@@ -526,8 +589,13 @@
       },
       {
         "title": "Ayush's Linux build guide",
-        "url": "https://gist.github.com/tharatau/5e5932dccf595ddfdc34642244230f15",
+        "url": "https://gist.github.com/ayushmanchhabra/5e5932dccf595ddfdc34642244230f15",
         "description": "This is a guide for setting up your dev environment and building NW.js on Ubuntu."
+      },
+      {
+        "title": "nw-patches",
+        "url": "https://github.com/nwutils/nw-patches",
+        "description": "Understand how NW.js changes upstream behaviour"
       }
     ]
   },
@@ -550,9 +618,19 @@
         "description": ""
       },
       {
-        "title": "nw-api-sanity-check",
-        "url": "https://github.com/nwutils/nw-api-sanity-check",
-        "description": "smoke test for NW.js API"
+        "title": "nw-test-suite",
+        "url": "https://github.com/nwutils/nw-test-suite",
+        "description": "Smoke test for NW.js API"
+      },
+      {
+        "title": "nw-build-tools",
+        "url": "https://github.com/nwutils/nw-build-tools",
+        "description": "NW.js local development"
+      },
+      {
+        "title": "nw-cli",
+        "url": "https://github.com/ayushmanchhabra/nw-cli",
+        "description": "Command-line interface for building NW.js applications"
       }
     ]
   },
