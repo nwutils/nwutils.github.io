@@ -199,6 +199,38 @@
         }
       },
       {
+        "title": "NW.js Sveltekit TypeScript Boilerplate",
+        "url": "https://github.com/edde746/nwjs-sveltekit-boilerplate",
+        "description": "NW.js + SvelteKit + TypeScript Boilerplate with automated builds.",
+        "primaryTechnologies": [
+          "Svelte",
+          "SvelteKit",
+          "Vite",
+          "NW.js",
+          "TypeScript",
+          "Bun"
+        ],
+        "quality": {
+          "documentation": {
+            "runningLocally": true,
+            "buildingDesktop": true,
+            "buildingWeb": true,
+            "screenshot": true
+          },
+          "builds": {
+            "automatedDesktop": true,
+            "automatedWeb": true
+          },
+          "semanticVersioning": false,
+          "releaseNotes": false,
+          "linting": false,
+          "testing": {
+            "unit": false,
+            "e2e": false
+          }
+        }
+      },
+      {
         "title": "NW.js Create-React-App Boilerplate",
         "url": "https://github.com/nwutils/nw-react-example",
         "description": "A basic boilerplate for building a desktop application using NW.js and React. Includes support for automated builds using nw-builder.",
