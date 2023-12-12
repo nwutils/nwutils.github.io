@@ -588,10 +588,9 @@
     ]
   },
   {
-    "title": "Automated Testing",
+    "title": "Unit Tests",
     "projects": [
       {
-        "title": "Unit testing",
         "description": "Most any existing unit testing libraries will work with NW.js. You may need to mock out the NW.js API though. Here are some examples:"
       },
       {
@@ -603,25 +602,29 @@
         "title": "Jest",
         "url": "https://github.com/nwutils/nw-vue-cli-example/tree/vue-2/tests/unit",
         "description": "The NW.js + Vue 2 boilerplate has Jest set up with 100% test coverage. You can reference this implementation to see how to mock out NW.js specific features, and how to test for both Web and Desktop with your unit tests."
+      }
+    ]
+  },
+  {
+    "title": "End-to-End Tests",
+    "projects": [
+      {
+        "description": "Running against the actual NW.js API for E2E testing is much more complicated than mocking it out in unit tests, but still possible. Here are some examples:"
       },
       {
-        "title": "End-to-End testing",
-        "description": "Running against the actual NW.js API for E2E testing is much more complicated, but still possible. Here are some examples:"
-      },
-      {
-        "title": "NW.js + Selenium (JavaScript example)",
+        "title": "Selenium (JavaScript)",
         "url": "https://github.com/nwutils/nw-selenium-javascript-example",
         "description": "An example of using Selenium for end-to-end testing of NW.js apps via JavaScript."
       },
       {
-        "title": "NW.js + Puppeteer",
-        "url": "https://github.com/nwutils/nw-puppeteer-example",
-        "description": "An example of using NW.js via Puppeteer."
-      },
-      {
-        "title": "NW.js + Selenium (Python example)",
+        "title": "Selenium (Python)",
         "url": "https://github.com/nwutils/nw-selenium-python-example",
         "description": "An example of using Selenium for end-to-end testing of NW.js apps via Python."
+      },
+      {
+        "title": "Puppeteer",
+        "url": "https://github.com/nwutils/nw-puppeteer-example",
+        "description": "An example of using NW.js via Puppeteer."
       }
     ]
   },
