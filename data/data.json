@@ -262,7 +262,7 @@
       {
         "title": "NW.js TS Solid Starter",
         "url": "https://github.com/davidmartinez10/nwts-solid-starter",
-        "description": "NW.js + Solid.js + TypeScript boilerplate",
+        "description": "NW.js + Solid.js + TypeScript boilerplate.",
         "primaryTechnologies": [
           "NW.js",
           "Solid.js",
@@ -293,7 +293,7 @@
       {
         "title": "NW.js Parcel/HMR boilerplate",
         "url": "https://github.com/nwutils/nw-parcel-hmr-boilerplate",
-        "description": "Hot Module Reloading Parcel (bundler) boilerplate for NW.js",
+        "description": "Hot Module Reloading Parcel (bundler) boilerplate for NW.js.",
         "primaryTechnologies": [
           "Parcel",
           "NW.js"
@@ -321,7 +321,7 @@
       {
         "title": "NW.js TS Game Boilerplate",
         "url": "https://github.com/blfunex/nw-ts-game",
-        "description": "TypeScript Boilerplate for Game Developers",
+        "description": "TypeScript Boilerplate for Game Developers.",
         "primaryTechnologies": [
           "glMatrix",
           "NW.js",
@@ -380,7 +380,7 @@
       {
         "title": "NW.js Next.js Boilerplate",
         "url": "https://github.com/nwutils/nw-next-example",
-        "description": "An example of Next.js running in NW.js",
+        "description": "An example of Next.js running in NW.js.",
         "primaryTechnologies": [
           "Next.js",
           "NW.js"
@@ -438,17 +438,17 @@
       {
         "title": "nw-sample-apps",
         "url": "https://github.com/nwutils/nw-sample-apps",
-        "description": "A bunch of miscellaneous NW.js application example"
+        "description": "A bunch of miscellaneous NW.js application example."
       },
       {
         "title": "bg-script-example",
         "url": "https://github.com/nwutils/bg-script-example",
-        "description": "A demo of how JavaScript runs in NW.js"
+        "description": "A demo of how JavaScript runs in NW.js."
       },
       {
         "title": "nwjs-print-server",
         "url": "https://github.com/nwutils/nwjs-print-server",
-        "description": "Websocket server to interface a website with a printer"
+        "description": "Websocket server to interface a website with a printer."
       }
     ]
   },
@@ -533,27 +533,27 @@
       {
         "title": "nw-builder",
         "url": "https://github.com/nwutils/nw-builder",
-        "description": "An automated build tool for NW.js applications, actively maintained by the community"
+        "description": "An automated build tool for NW.js applications, actively maintained by the community."
       },
       {
         "title": "nw-dev",
         "url": "https://github.com/nwutils/nw-dev",
-        "description": "Adds in several convient features for development when working in NW.js"
+        "description": "Adds in several convient features for development when working in NW.js."
       },
       {
         "title": "nwdc",
         "url": "https://github.com/nwutils/nwdc",
-        "description": "NW.js Debug Console for Windows"
+        "description": "NW.js Debug Console for Windows."
       },
       {
         "title": "vscode-nwjs-debug",
         "url": "https://github.com/karikera/vscode-nwjs-debug",
-        "description": "Adds NW.js as a debugger option in VSCode"
+        "description": "Adds NW.js as a debugger option in VSCode."
       },
       {
         "title": "nwjs-packager",
         "url": "https://github.com/nwutils/nwjs-packager",
-        "description": "A simple tool to package or archive your project for sharing"
+        "description": "A simple tool to package or archive your project for sharing."
       },
       {
         "title": "Vue DevTools for NW.js",
@@ -568,22 +568,60 @@
       {
         "title": "NW.ts Tools",
         "url": "https://github.com/davidmartinez10/nwts-tools",
-        "description": "TypeScript tools for running, patching and packaging NW.js apps"
+        "description": "TypeScript tools for running, patching and packaging NW.js apps."
       },
       {
         "title": "Web2Executable",
         "url": "https://github.com/nwutils/Web2Executable",
-        "description": "Generate NW.js apps using Python"
+        "description": "Generate NW.js apps using Python."
       },
       {
         "title": "nwjs-shell-builder",
         "url": "https://github.com/nwutils/nwjs-shell-builder",
-        "description": "NW.js shell script builder and packager scripts"
+        "description": "NW.js shell script builder and packager scripts."
       },
       {
         "title": "nw-updater",
         "url": "https://github.com/nwutils/nw-updater",
-        "description": "Update NW.js applications"
+        "description": "Update NW.js applications."
+      }
+    ]
+  },
+  {
+    "title": "Automated Testing",
+    "projects": [
+      {
+        "title": "Unit testing",
+        "description": "Most any existing unit testing libraries will work with NW.js. You may need to mock out the NW.js API though. Here are some examples:"
+      },
+      {
+        "title": "Vitest",
+        "url": "https://github.com/nwutils/nw-vue3-boilerplate/blob/main/vite.config.js#L21",
+        "description": "The NW.js + Vue 3 boilerplate has Vitest set up with 100% test coverage. You can reference this implementation to see how to mock out NW.js specific features, and how to test for both Web and Desktop with your unit tests."
+      },
+      {
+        "title": "Jest",
+        "url": "https://github.com/nwutils/nw-vue-cli-example/tree/vue-2/tests/unit",
+        "description": "The NW.js + Vue 2 boilerplate has Jest set up with 100% test coverage. You can reference this implementation to see how to mock out NW.js specific features, and how to test for both Web and Desktop with your unit tests."
+      },
+      {
+        "title": "End-to-End testing",
+        "description": "Running against the actual NW.js API for E2E testing is much more complicated, but still possible. Here are some examples:"
+      },
+      {
+        "title": "NW.js + Selenium (JavaScript example)",
+        "url": "https://github.com/nwutils/nw-selenium-javascript-example",
+        "description": "An example of using Selenium for end-to-end testing of NW.js apps via JavaScript."
+      },
+      {
+        "title": "NW.js + Puppeteer",
+        "url": "https://github.com/nwutils/nw-puppeteer-example",
+        "description": "An example of using NW.js via Puppeteer."
+      },
+      {
+        "title": "NW.js + Selenium (Python example)",
+        "url": "https://github.com/nwutils/nw-selenium-python-example",
+        "description": "An example of using Selenium for end-to-end testing of NW.js apps via Python."
       }
     ]
   },
@@ -626,7 +664,7 @@
       {
         "title": "nw-patches",
         "url": "https://github.com/nwutils/nw-patches",
-        "description": "Understand how NW.js changes upstream behaviour"
+        "description": "Understand how NW.js changes upstream behavior."
       }
     ]
   },
@@ -651,17 +689,17 @@
       {
         "title": "nw-test-suite",
         "url": "https://github.com/nwutils/nw-test-suite",
-        "description": "Smoke test for NW.js API"
+        "description": "Smoke test for NW.js API."
       },
       {
         "title": "nw-build-tools",
         "url": "https://github.com/nwutils/nw-build-tools",
-        "description": "NW.js local development"
+        "description": "NW.js local development."
       },
       {
         "title": "nw-cli",
         "url": "https://github.com/ayushmanchhabra/nw-cli",
-        "description": "Command-line interface for building NW.js applications"
+        "description": "Command-line interface for building NW.js applications."
       }
     ]
   },
@@ -671,7 +709,7 @@
       {
         "title": "nw-splasher-auto-update",
         "url": "https://github.com/nwutils/nw-splasher-auto-update",
-        "description": "A tool to show a splash screen while checking for updates, downloading, extracting the update and opening it in a new window"
+        "description": "A tool to show a splash screen while checking for updates, downloading, extracting the update and opening it in a new window."
       },
       {
         "title": "nw-window-manager",
@@ -681,37 +719,37 @@
       {
         "title": "node-default-application-protocol",
         "url": "https://github.com/nwutils/node-default-application-protocol",
-        "description": "Would allow you to create mycoolappname://settings link (or similar) that would trigger your app to open"
+        "description": "Would allow you to create mycoolappname://settings link (or similar) that would trigger your app to open."
       },
       {
         "title": "limited-node-access-example",
         "url": "https://github.com/nwutils/limited-node-access-example",
-        "description": "An example for how to give an iframe access to only specific parts of Node"
+        "description": "An example for how to give an iframe access to only specific parts of Node."
       },
       {
         "title": "faux-tray-menu",
         "url": "https://github.com/nwutils/faux-tray-menu",
-        "description": "Workaround for a tray app menu bug. Could also be used as a more robust menu system for tray apps"
+        "description": "Workaround for a tray app menu bug. Could also be used as a more robust menu system for tray apps."
       },
       {
         "title": "faux-notifications",
         "url": "https://github.com/nwutils/faux-notifications",
-        "description": "Creating a transparent, custom styled, positioned and sized to look like a desktop notification"
+        "description": "Creating a transparent, custom styled, positioned and sized to look like a desktop notification."
       },
       {
         "title": "nw-rich-tray-example",
         "url": "https://github.com/nwutils/nw-rich-tray-example",
-        "description": "An example of a tray application that creates a frameless floating window next to the tray icon when clicked"
+        "description": "An example of a tray application that creates a frameless floating window next to the tray icon when clicked."
       },
       {
         "title": "nw-screen-capture",
         "url": "https://github.com/nwutils/nw-screen-capture",
-        "description": "A premade UI with some basic options (like light/dark mode, and maybe a customizable color) for selecting a window/screen to share via nw.Screen.DesktopCaptureMonitor"
+        "description": "A premade UI with some basic options (like light/dark mode, and maybe a customizable color) for selecting a window/screen to share via nw.Screen.DesktopCaptureMonitor."
       },
       {
         "title": "NW.js Global Installer",
         "url": "https://github.com/nwutils/nw-global-installer",
-        "description": "A tool to create Installer executables for your app that would download the required NW.js version to a shared location, so any other NW.js app using the same NW.js version could skip the download of the large NW.js files"
+        "description": "A tool to create Installer executables for your app that would download the required NW.js version to a shared location, so any other NW.js app using the same NW.js version could skip the download of the large NW.js files."
       }
     ]
   }
