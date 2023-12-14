@@ -536,6 +536,11 @@
         "description": "An automated build tool for NW.js applications, actively maintained by the community."
       },
       {
+        "title": "Base Volta off of NW.js",
+        "url": "https://github.com/nwutils/base-volta-off-of-nwjs",
+        "description": "Tool to update the Volta config in your package.json so your global and NW.js Node versions always match."
+      },
+      {
         "title": "nw-dev",
         "url": "https://github.com/nwutils/nw-dev",
         "description": "Adds in several convient features for development when working in NW.js."
