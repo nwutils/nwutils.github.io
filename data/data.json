@@ -501,6 +501,11 @@
         "description": "A library to create a splash screen for your app. Then hide the splash screen and show your app once loading completes. Each window runs in it's own thread so animations play smoothly on the splash screen."
       },
       {
+        "title": "nw-dev-keybindings",
+        "url": "https://github.com/nwutils/nw-dev-keybindings",
+        "description": "When running NW.js SDK this enables common keyboard shortcuts to reload the page or open the dev tools."
+      },
+      {
         "title": "nw-programmatic-folder-select",
         "url": "https://github.com/nwutils/nw-programmatic-folder-select",
         "description": "Let's you programmatically open a folder selection dialog and runs a callback function with the user's choice."
