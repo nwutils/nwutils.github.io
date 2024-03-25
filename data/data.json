@@ -527,7 +527,7 @@
       },
       {
         "title": "electron-to-nwjs",
-        "url": "https://github.com/nwutils/electron-to-nwjsr",
+        "url": "https://github.com/nwutils/electron-to-nwjs",
         "description": "Build an Electron app as a NW.js app"
       }
     ]
