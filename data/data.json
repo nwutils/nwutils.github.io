@@ -605,7 +605,7 @@
       },
       {
         "title": "Vitest",
-        "url": "https://github.com/nwutils/nw-vue3-boilerplate/blob/main/vite.config.js#L21",
+        "url": "https://github.com/nwutils/nw-vue3-boilerplate/blob/main/vite.config.js",
         "description": "The NW.js + Vue 3 boilerplate has Vitest set up with 100% test coverage. You can reference this implementation to see how to mock out NW.js specific features, and how to test for both Web and Desktop with your unit tests."
       },
       {
