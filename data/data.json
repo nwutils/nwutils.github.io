@@ -441,6 +441,11 @@
         "description": "A bunch of miscellaneous NW.js application example."
       },
       {
+        "title": "nw-subdir-example",
+        "url": "https://github.com/nwutils/nw-subdir-example",
+        "description": "Example for having a parent package.json file that runs NW.js pointed to a child folder with its own package.json."
+      },
+      {
         "title": "bg-script-example",
         "url": "https://github.com/nwutils/bg-script-example",
         "description": "A demo of how JavaScript runs in NW.js."
