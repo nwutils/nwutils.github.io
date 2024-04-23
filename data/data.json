@@ -104,8 +104,7 @@
         "site": "ps-scripting.com"
       },
       {
-        "icon": "github",
-        "image": "",
+        "icon": "GitHub",
         "title": "Building NW.js for Mac",
         "author": "Tony Readhead",
         "url": "https://tonyredhead.com/pano2vr/desktop-app-mac",
