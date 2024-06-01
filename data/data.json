@@ -598,6 +598,11 @@
         "description": "Generate NW.js apps using Python."
       },
       {
+        "title": "RPG Maker MV / MZ for Linux (cicpoffs)",
+        "url": "https://github.com/bakustarver/rpgmakermlinux-cicpoffs",
+        "description": "Run any RPG Maker MV/MZ game on Linux. Downloads Linux versions of NW.js for RPG Maker."
+      },
+      {
         "title": "nwjs-shell-builder",
         "url": "https://github.com/nwutils/nwjs-shell-builder",
         "description": "NW.js shell script builder and packager scripts."
