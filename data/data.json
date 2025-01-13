@@ -88,6 +88,13 @@
         "site": "dev.to"
       },
       {
+        "icon": "GitHub",
+        "title": "Save Persistent Data in App",
+        "author": "NW.js Wiki",
+        "url": "https://github.com/nwjs/nw.js/wiki/Save-persistent-data-in-app",
+        "site": "GitHub"
+      },
+      {
         "icon": "dev.to",
         "image": "nw-angular-cli.png",
         "title": "Angular-CLI and NW.js for development",
