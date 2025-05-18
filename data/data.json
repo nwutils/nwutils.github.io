@@ -646,19 +646,24 @@
         "description": "Running against the actual NW.js API for E2E testing is much more complicated than mocking it out in unit tests, but still possible. Here are some examples:"
       },
       {
-        "title": "Selenium (JavaScript)",
-        "url": "https://github.com/nwutils/nw-selenium-javascript-example",
-        "description": "An example of using Selenium for end-to-end testing of NW.js apps via JavaScript."
+        "title": "Selenium's Builder API (JavaScript)",
+        "url": "https://github.com/nwutils/nw-testing-javascript-selenium-builder-example",
+        "description": "An example of using Selenium's Builder API for end-to-end testing of NW.js apps via JavaScript."
+      },
+      {
+        "title": "Selenium's Service Builder API (JavaScript)",
+        "url": "https://github.com/nwutils/nw-testing-javascript-selenium-servicebuilder-example",
+        "description": "An example of using Selenium's Service Builder API for end-to-end testing of NW.js apps via JavaScript."
       },
       {
         "title": "Selenium (Python)",
-        "url": "https://github.com/nwutils/nw-selenium-python-example",
-        "description": "An example of using Selenium for end-to-end testing of NW.js apps via Python."
+        "url": "https://github.com/nwutils/nw-testing-python-selenium-servicebuilder-example",
+        "description": "An example of using Selenium's Service Builder API for end-to-end testing of NW.js apps via Python."
       },
       {
         "title": "Puppeteer",
-        "url": "https://github.com/nwutils/nw-puppeteer-example",
-        "description": "An example of using NW.js via Puppeteer."
+        "url": "https://github.com/nwutils/nw-testing-javascript-puppeteer-example",
+        "description": "An example of using Puppeteer for end-to-end testing of NW.js apps."
       }
     ]
   },
