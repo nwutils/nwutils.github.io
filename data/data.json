@@ -468,6 +468,11 @@
         "title": "nwjs-print-server",
         "url": "https://github.com/nwutils/nwjs-print-server",
         "description": "Websocket server to interface a website with a printer."
+      },
+      {
+        "title": "nw-ruffle-example",
+        "url": "https://github.com/nwutils/nw-ruffle-example",
+        "description": "Use Ruffle to display SWF (Flash) files in NW.js"
       }
     ]
   },
