@@ -689,11 +689,6 @@
         "description": "If you need to customize the source code of Chromium, Node.js or NW.js, this section provides resources for doing your own builds. If you don't need to modify these, you're better off just using the official stable builds as provided."
       },
       {
-        "title": "NW.js-Self-Build (NW.js Build Automation for Windows)",
-        "url": "https://github.com/nwutils/NW.js-Self-Build",
-        "description": "Build custom NW.js mods on Windows with a single click."
-      },
-      {
         "title": "NW.js Official Docs",
         "url": "https://nwjs.readthedocs.io/en/latest/For%20Developers/Building%20NW.js",
         "description": "The official docs are a good starting point."
@@ -712,6 +707,11 @@
         "title": "Ayush's Linux build guide",
         "url": "https://gist.github.com/ayushmanchhabra/5e5932dccf595ddfdc34642244230f15",
         "description": "This is a guide for setting up your dev environment and building NW.js on Ubuntu."
+      },
+      {
+        "title": "NW.js-Self-Build (NW.js Build Automation for Windows)",
+        "url": "https://github.com/nwutils/NW.js-Self-Build",
+        "description": "Build custom NW.js mods on Windows with a single click."
       },
       {
         "title": "nw-patches",
