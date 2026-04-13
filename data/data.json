@@ -691,7 +691,7 @@
       {
         "title": "NW.js-Self-Build (NW.js Build Automation for Windows)",
         "url": "https://github.com/nwutils/NW.js-Self-Build",
-        "description": "Build custom NW.js mods on Windows with a single click. Note: This project uses the Anti-996 license, which restricts usage to entities that comply with local labor laws and international labor standards, prohibiting any form of forced overtime or violation of employee rights. Entities must also avoid inducing/coercing employees to waive labor rights or restricting reporting of license violations."
+        "description": "Build custom NW.js mods on Windows with a single click."
       }
       {
         "title": "NW.js Official Docs",
