@@ -695,7 +695,7 @@
       },
       {
         "title": "Buildbot logs",
-        "url": "http://buildbot-master.nwjs.io:8010/builders",
+        "url": "http://buildbot.nwjs.io:8010",
         "description": "The most recent official builds for NW.js are logged here. Many builders have found these logs helpful."
       },
       {
