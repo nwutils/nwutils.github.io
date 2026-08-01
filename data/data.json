@@ -138,6 +138,13 @@
         "author": "The Jared Wilcurt",
         "url": "https://github.com/nwutils/bg-script-example",
         "site": "GitHub"
+      },
+      {
+        "icon": "Medium",
+        "title": "Packaging Your nw.js App with Docker in a Debian Package",
+        "author": "Guddu Kumar",
+        "url": "https://medium.com/@gudduraj940/packaging-your-nw-js-app-with-docker-in-a-debian-package-0f62448c0856",
+        "site": "Medium"
       }
     ]
   },
